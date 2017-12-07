@@ -1,0 +1,1665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		023275749B248C3E423E2BE6CCC5295D /* JackpotRising.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2A126E6B8C712D53372FF491AB485F /* JackpotRising.swift */; };
+		02D07DA926465BEE4556CAB5E854C4E8 /* ISO8601DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA74646F2A4793CC9C5B83AA0CC2AFF9 /* ISO8601DateTransform.swift */; };
+		0419E19D6B7C791ECFBB0D19B956C527 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834E850CB60F226BFDC7D8E00C688DB5 /* MultipartFormData.swift */; };
+		085BEBCADB00AF6FF50D4C5E093F3B70 /* JackpotRising-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6AB7A6D21CC8D73D4FDF0FA868E9F31 /* JackpotRising-dummy.m */; };
+		0999D618B77B27B5567A0DDEF08D73F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDE6019C31551CDBF731AAAF117483E3 /* Assets.xcassets */; };
+		0B06CAAABB5D4A299E70CD52D1EF4458 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013F4F5E5D0BCBC3C4DB1074C7F8264C /* Map.swift */; };
+		0B3CAAAE712690093E1DC75835954603 /* JRSettingsDropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888DAF3B6C70873E2F0E6E10A75784B4 /* JRSettingsDropDownCell.swift */; };
+		0BBBAF5E124641BE34D9AAE4B74E25EF /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8B8223E7D3215729EA8C2AEDF6507F /* DropDownCell.swift */; };
+		0DFF4215E3C4A7B46A4D91887C40AAA6 /* JRSharedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB41975141CF655D17BF35F7D260EB9A /* JRSharedData.swift */; };
+		0E8EA1B3E742DCCAD2122B5B0934E4E7 /* CustomDateFormatTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AC3F42C16DA82BE44D4F1F42ED07E7 /* CustomDateFormatTransform.swift */; };
+		0EFF8D0AB86126BE8A1C1DB52BCA8C3C /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8FFDD2984DD09276A4B9A93B216C6D /* DPDUIView+Extension.swift */; };
+		1056775008717E73D49D2D526A9DB069 /* JRSettingsSwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA5DF8D33729E23A3A52129FD1A6DCE /* JRSettingsSwitchCell.swift */; };
+		1076D4474FAD39C4BB5DFFEBC2E363DF /* JRTournamentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5042FC6189494F0490E52B65898DC8 /* JRTournamentViewController.swift */; };
+		11B16C6CB68995ABD810614FB7140D01 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F71E3FC6D3B78C02393013AC261C895 /* CoreLocation.framework */; };
+		12A994627A6E72B47BE1430F1C0088E9 /* SwiftLuhn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA4477D5D94CBC5898634BE950FF92D /* SwiftLuhn.swift */; };
+		13A235D1CA88D9D7E547788C3CF64491 /* JRPaymentMappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5ECB13492C118D2E1C0D75795F3BF66 /* JRPaymentMappers.swift */; };
+		13B587EE681B3FEFFB945D617F10F558 /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF910BF260BDF4953401EBFC8EC4F287 /* DPDKeyboardListener.swift */; };
+		16698C7795D151F336C64B38D4C45A2B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B021FC4D54F0BDA71B343E637CDFAF4 /* QuartzCore.framework */; };
+		1724E8D5DCF371ABB7C12A8F1E2249A6 /* JRLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77FC350C3B50513FD44C14C546B8C21 /* JRLoginViewController.swift */; };
+		1B3F7EF4464BEBC9385081E259DFCA22 /* JRLeaderboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5207CCA490CA8C09E6368C2DC69E5FC0 /* JRLeaderboardViewController.swift */; };
+		1B5352A44215B2E1AD0F20480E1CFF10 /* ZoozPaymentMethodDetails.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BBE5761768AD5181C2DDD692DF0C361 /* ZoozPaymentMethodDetails.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D8C6CF0B44D6C60E948415894B9467A /* JRAsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5EDE69E94C922CF7581C34E5453E57 /* JRAsyncImageView.swift */; };
+		1DCFED866BB8ABDA511043E99AB54A61 /* JRLoginPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4D1EA49DAB5BD4CECFA33EC07E9B79 /* JRLoginPageViewController.swift */; };
+		21B47A4B95EA2C12BAF10DF3C4687ED3 /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6723FC67258B8C91CE2F54D6F4696F8F /* Mapper.swift */; };
+		24D359D0C6BD9B9AD58388940E82295C /* JRWithdrawTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FC7C80554C3E6A07C5746D85DA93EE /* JRWithdrawTextFieldCell.swift */; };
+		25F5B784CDFAE3B04FBDCD4D9CF62A68 /* JRCustomClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E046E3DFE272DF355AD33DE5B84FBF /* JRCustomClasses.swift */; };
+		2787FC5C263EAD4B1249A6EC32964D14 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6249D281AF6E855DC25ED25D24D337A /* DropDown.swift */; };
+		28565AE6748E0E22802F1FAD56934CDF /* DictionaryTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DF84B1D9B80B40C683ACA570B85B9F /* DictionaryTransform.swift */; };
+		2D950830843C905276CD0832B4A16086 /* JRMoment.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE398C707CC48F0BDBCA0BC9E3963B13 /* JRMoment.swift */; };
+		2F76CADE474D46B33C1A66284D04D3D3 /* NSString+JackpotRising.h in Headers */ = {isa = PBXBuildFile; fileRef = 96C73F54B6FEC4867F472BFB2BA3F58A /* NSString+JackpotRising.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3214C32B594D8EACC10BD64DE3E12D5C /* Pagable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDFA9C02251D2B2FC29118634E6C6CE /* Pagable.swift */; };
+		33D3F1B39E68EFFAAA9A159F2027151B /* ZoozSDKWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A1B33BA8C636DD8FD3786D8CF4E0C3E /* ZoozSDKWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		345CA53D292FBB8D82D4EBE3912A0ADF /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83410D790F03C68C14D8CB1880BCCB34 /* SkyFloatingLabelTextField.swift */; };
+		36E3A5A9D517710FBD3B8CB398AAFE36 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C3B810DFD37BF7FAF97E4B82C6A720A /* MobileCoreServices.framework */; };
+		37C4EB3E1E72D968CBB8D5366EE9066A /* JRMonthYearPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D996DA18ADE9BE8224563EE379F9036 /* JRMonthYearPickerView.swift */; };
+		37D5FF1BF3DFD8F02E96756CC344661F /* AlamofireObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72907061E260DF7D3A55A01FD2212901 /* AlamofireObjectMapper.swift */; };
+		38FACC8E987BA89800620AB2BD4FCC53 /* ZooZEcommDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 97D71E11787CA06603A15D62A94FBE1A /* ZooZEcommDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39814858FAE542DCD6FBB1BFF894F3E6 /* JRAllowedStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DF1F7F0B73FCAD9530F7384BB27D4E /* JRAllowedStates.swift */; };
+		3B51891C10817C96D2EEDC438C501DD2 /* JRCountriesListMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F75A5906482117CF1B59174E2B47FAF /* JRCountriesListMapper.swift */; };
+		3B966AF322F3B44870BFC791B5D347F0 /* JRLeaderboardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7349B8BCFBC07948045D3789C477D3F2 /* JRLeaderboardTableViewCell.swift */; };
+		3D4B4B5E96FD44FDCD82AB668885EFC0 /* JRWithdrawRequestForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF0C2A4C03171FAFD58983C9D744C51 /* JRWithdrawRequestForm.swift */; };
+		3F636DE0CD1BC63190C915820AC7B560 /* Pods-SwiftDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F1C8EE9443F5B647D419DBCE89A23D /* Pods-SwiftDemo-dummy.m */; };
+		3FC96E8E107F84EE05238D1FD3056096 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F01585FA65D40116AEFB2A9F763236 /* DispatchQueue+Alamofire.swift */; };
+		4427A0CD47E2C821A26444C8DB7DD780 /* JRScoreSubmitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C2738988B5C815B148894F73C1198F /* JRScoreSubmitManager.swift */; };
+		446A24C262083225F2FFD5C45836B585 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7980C46B1D43B040BF7488528E11EE6F /* Accelerate.framework */; };
+		46262C5E169088329A7C27432F924A31 /* Mappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BC8626A81FB37B8263B7DB3A8C2D38 /* Mappable.swift */; };
+		4869A7CF97D28B3EFC91D5B2E5331533 /* JRTournamentsPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA053274AAFC9453BD9441B9590EDA3 /* JRTournamentsPageController.swift */; };
+		48DA4EF02AE18F55BDB46C2F3365BAE9 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3658D3A0FBB2CC256EF309B485AE1441 /* Notifications.swift */; };
+		49464AF2ABD3285CD8E1F3A989374468 /* JRTournamentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBBC998576529475F0CF1CCD8042A2F /* JRTournamentTableViewCell.swift */; };
+		49F6A29DDD9FE6DF0C658565EC56F2A4 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F693444F8A945D9DB84FD98FFCFE615 /* Validation.swift */; };
+		4A2B5173ABCAB61FAEE3DF3F29F1586D /* JRWithdrawAddressCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F3DEB07991DC3B736B55BD8D860FE3 /* JRWithdrawAddressCell.swift */; };
+		4D5E4EFDA8E66223A8E63416ABBE8AB9 /* MenuItemViewCustomizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213B60F82C905D726D46017B2F94A40E /* MenuItemViewCustomizable.swift */; };
+		4DAEA6F947E61BE2977CF258A6C21065 /* JRSettingsPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CFE8CF26386F1CA9B0D43664DCBC4E /* JRSettingsPageController.swift */; };
+		4DE9CA5A745F5CAD7596BC5A50019872 /* JRSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E94C21BA51ADEBF51B3B4D9BE936D5 /* JRSegue.swift */; };
+		4E2DF61A40FF20149F6FE37FEBB87510 /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8B6B42BED7625A1F49216222B9C00A8 /* DropDownCell.xib */; };
+		4E89224DEF7DDC19EFB3BBD191D1BDFC /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EF9B6CCC6C8F80D6DB8B2A3202E39B /* AFError.swift */; };
+		50B96AD85ECA42615F400256346D0E41 /* JRAlertsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B099B4BD8322BB65362AF4F6BC78BA /* JRAlertsViewController.swift */; };
+		54789B89868E70DD94EA0EF016BE71BF /* ZoozSDKWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F4D678CD6C362418AC13907F7FF612 /* ZoozSDKWrapper.m */; };
+		54CB354EBB19882DCA81DBA45AA598CE /* JRConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6958105830C034AD38F9A65DC5738E /* JRConstants.swift */; };
+		56F27EF3E82A46FA0CBDDB480607B282 /* JRAlertTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DBCD07859D17A2C90CF3BB2C16F90F /* JRAlertTableViewCell.swift */; };
+		59CB0F11072013A56B99BDA98DBC2EE1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E1A6DA0D125DC83D1D260842FA1F684 /* Security.framework */; };
+		5A00C7B648F9A1ECDC863127E6FD6179 /* JRFriendsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C45E3B7D557BDA25898C275AEE7D886 /* JRFriendsTableViewCell.swift */; };
+		5BFA2086C8720B66EA773FB7B8BD2F94 /* JRExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8043609A6420764BB196D17040FC05 /* JRExtensions.swift */; };
+		5C9152DB34BCE9534A70873EF593BB75 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAC0846B956C80AAB9E221FAEA5D37A /* Result.swift */; };
+		5E7DA534B92C8E89AD3DAF7DFD7E6707 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10548540B966133DDD15C527DC843A99 /* Response.swift */; };
+		5FD9FDC7D7BFCBBC2EB809B86B94A890 /* JRGeneralSettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1743B89D401A3864A3058E7372FC287 /* JRGeneralSettingsModel.swift */; };
+		602C24C5F1A0631B85C97627712C1994 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082CE66AD0968A6062A2270A6CD7CEAD /* ParameterEncoding.swift */; };
+		622F025563B9F0538FA0493A64BA03F5 /* ZoozRisk.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BCF7F1F6B7BC779425FFD46E51C7A00 /* ZoozRisk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62718745564B1C0185D8A2C9CF2D7AC7 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CCE1ECE952BF1C6560CDB6C51AE215 /* ServerTrustPolicy.swift */; };
+		62913023016E394AD6A60E1A47F251C2 /* ZoozEcommResponseObject.h in Headers */ = {isa = PBXBuildFile; fileRef = B313698403622013C88C6EA5E8946D73 /* ZoozEcommResponseObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64539616C8740981AAA8A0E0E10CC4A1 /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09332AF221DAB712A8CE67CE560F83A /* DropDown+Appearance.swift */; };
+		66801AB35E2F0EE6D9637646923FECEF /* Oswald-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D844E7EEDA047015176CBAF0467E03C3 /* Oswald-Light.ttf */; };
+		686B23633CFEC6081AA0F6EE2F9088DC /* JRActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6400544CF39B295441C2C1CB02C120F /* JRActivityIndicator.swift */; };
+		6A165AC17AC9FFCC231BBBCECD529946 /* ZoozAddPaymentMethodResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 05E121ED485DAAB20C478022293BB556 /* ZoozAddPaymentMethodResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BE041B2DC356368EB595AA2B8984F4C /* JRGeneralSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9475638746473406CFBFC5F002B4FC77 /* JRGeneralSettingsViewController.swift */; };
+		6D22B9B9B4EFA77E4BF7634E14783B28 /* JRAccountSettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AF5F7FA97574CD40743B98CFEB70BE /* JRAccountSettingsModel.swift */; };
+		71AEDB4425B8B32B7BE3ABCCF98F1BD4 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AB0D3D7BDFDA801AC4D4C4F3A24DE6 /* Request.swift */; };
+		71C6B5F7EDADE26B9D95EA50662E2A5E /* JRAppVersionMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9683FCC3CD2270FD644B7B425FC792 /* JRAppVersionMapper.swift */; };
+		723E9FD818CF717428F8CD3248A5B166 /* JRProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660C7160C70F764E995742CDC0B0DF10 /* JRProfileViewController.swift */; };
+		73F7C7213BD3873C6468F46955434E6F /* JRRegistrationMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2B947371C550496E9816FE7AAC9CAB /* JRRegistrationMapper.swift */; };
+		7474574FE8BE8C0FDB3C75A662E67F87 /* DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD18374771D1E8B14B12AAD88AB5160 /* DateTransform.swift */; };
+		7517B53F68B1B82D9C0C9999C6034030 /* JRGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEBA9195D43A3CD1470168CDA712F7A /* JRGraphView.swift */; };
+		76FE103AFD96D2D1E894F498B9F93E10 /* ZoozAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = 3143D65D2D573653578F01A531940A7E /* ZoozAddress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77FC3DC97C56F68DE06A1D4A29F4AC49 /* PagingMenuControllerCustomizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96913AB9ACC1DFDE9BF5105E450A5276 /* PagingMenuControllerCustomizable.swift */; };
+		7B82C30324A9D0C96081E9E68F5C216B /* JRTopBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DEE02B23DCF3833AD3B2207081B63E /* JRTopBarViewController.swift */; };
+		7BDB571E95AC384FF86047B811259F47 /* ZoozRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 123CB076591FC096A3E0F0C6BE2B5CD9 /* ZoozRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C221360DB9E6A97EC023C21359C019E /* JRMapQuestMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20EDCE1AA4B2F9FF10E8F0250797D2C /* JRMapQuestMapper.swift */; };
+		7C45EA0BB2DAA398348A8EC87F9D7B93 /* JRCardDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9917CD523A69A278105E0F6DFB897D62 /* JRCardDetailsViewController.swift */; };
+		7ECCE01C842F4E942E185A411AE70D06 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3389BE633E71A7D3D9971893E4AD396E /* Operators.swift */; };
+		7F014DEC8EC0DEB78CC4C1C257BB9132 /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987C0FB33B50BF3EDB2429E9F9900BE9 /* DPDConstants.swift */; };
+		800FF3EF7370620DCB8E615EC4C58CA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D1D71D5FCD47A37495848E51766B337 /* Foundation.framework */; };
+		825488AA92B6DC044B12BB0966DA2043 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C1DE368B1E8689457D6B85EDACCDF2E /* UIKit.framework */; };
+		827E4B8A1BCF78AF8DCF8D77D094FA11 /* JRLeaderboardListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9498A3DD453A5A4B93E893D4938417 /* JRLeaderboardListController.swift */; };
+		861A0375A67A394F72199DC73A9FB866 /* JRFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064F863ADC18E9160592AB6A76417958 /* JRFriendsViewController.swift */; };
+		8643BBBF906B2875A950BF0F01A2D714 /* JRPopupTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F92467EF25BFD0BD8CAE5376A13A1B2 /* JRPopupTextField.swift */; };
+		86CBD148A8FCE29A06D748C4221DB387 /* DataTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47DA2A39D97285F5A802CA85355EE51 /* DataTransform.swift */; };
+		8B4E5E656A16FE1E243D24AEC364CBAE /* JRLeaderBoardMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750E0E004FE4CC22FE459726B151C9C5 /* JRLeaderBoardMapper.swift */; };
+		8B695D14B7419B574B09D3B8CFA67D71 /* JRAPIServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FE1B2409A44F259BD2F8CDDD943B37 /* JRAPIServices.swift */; };
+		8C5E8BF807CC8BB6C99F2767AED2C6C9 /* MenuViewCustomizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D30A0744997B25C1D17ED7BE88EB53 /* MenuViewCustomizable.swift */; };
+		8E75DEE9EEBCB039D027BCD6783EB2A8 /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CE5B815B083A2367C4D8691A52A20E /* UITextField+fixCaretPosition.swift */; };
+		8FACBECAD884FCEBDA113AA46265215E /* URLTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7811952FBBF547CE7F7BB1EBB4C980EE /* URLTransform.swift */; };
+		90FD576F086B1CB94D57EF8F72BA2EE0 /* ZoozPhone.h in Headers */ = {isa = PBXBuildFile; fileRef = 355010B65D17BB32BAD34384E59DDF59 /* ZoozPhone.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97D68C9037F03A1FDFA2EDFA20482A31 /* JRAlertsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B83DB1EA0031CC7A293FF078C5AE9D /* JRAlertsPageViewController.swift */; };
+		984EF5E8AB9BCF8E950CC411E871468B /* JRTournamentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BCD4E8EA5D84459E5F29CE60714D87 /* JRTournamentDetailViewController.swift */; };
+		9A0CCDF665058F77C04A42AB8D84F929 /* JRContestPlayMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A148C41439B691DCDC9178ED26ACED74 /* JRContestPlayMapper.swift */; };
+		9AA94B2C5AB5621B7609759CCE18491B /* JRWithdrawTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA475BE8B607FC6755C57FB6BBFEF56D /* JRWithdrawTypeCell.swift */; };
+		9AF6F9C1060E8C25989B7B613B689218 /* ZoozPaymentMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 3527091988542B0504E13A19786B30B7 /* ZoozPaymentMethod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E0372B0333B9465160B5C6FB2231AF8 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3729BB319485B30477AF30739D5E2E /* Alamofire.swift */; };
+		9F03C41B6985A1A525D6A19818BAE341 /* JRTournamentDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CBD7EC7EAEDF883B3AA4E0216DE0D0 /* JRTournamentDetailTableViewCell.swift */; };
+		9F189AAA23D74397DB0CBCA4C4934351 /* JRSocialPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94E5F58A38EC6293E5BC8809294FF82 /* JRSocialPageViewController.swift */; };
+		9FF984E627892B1485E8540B92D8942F /* ZoozAddPaymentMethodRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 62BA9F285ACD5C38809F6C47C5D78C08 /* ZoozAddPaymentMethodRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1783267C44F8514DEF580625CBB8FBF /* FromJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2936CDE7C0D864B2EF32E63A9A5AAE /* FromJSON.swift */; };
+		A2401AF91D63D7F07FEF58BC1683E02F /* ZoozServerResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = CEDC48F809FBBF04E5742B6D1EB058DA /* ZoozServerResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3148B668B469FAAEC973E3EA2BDD06A /* PagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358391F34B8E13CB312F5759EFD3BED0 /* PagingViewController.swift */; };
+		A95B6B9A97E503F9239CC7320A8223A0 /* JRProfileOtherPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC7567C0CC9A9D327202E39E40F4E85 /* JRProfileOtherPageController.swift */; };
+		A9F953BC42AE17DAF2A8F7FA5705F423 /* NSDecimalNumberTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E08C861996FEC42F8C8376B90C324D7 /* NSDecimalNumberTransform.swift */; };
+		AB1DFAF9DA8C765C95E5669B84804B97 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824B35EEFA773FC685A7D9886BEB24CB /* SkyFloatingLabelTextFieldWithIcon.swift */; };
+		AB2F70BE10937EE45105034BEEEF0F08 /* JRContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67BACCE395C1D0BA4A980E0FCCEAA38 /* JRContentViewController.swift */; };
+		AB5BF5298AFCDD12A2CD659B0CF74E02 /* JRLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BAD1217E635368A54F60579F1DB5591 /* JRLocationManager.swift */; };
+		AF095DEC1935521A98F0EBF519CDE817 /* JRTournamentRulesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8251D1784F3E00FC89471A71896D7242 /* JRTournamentRulesViewController.swift */; };
+		AFA387BE89B19A1716A167F7CBC28120 /* JRThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96E96429159C89E652AFA84B8C8B1D3 /* JRThread.swift */; };
+		B320F94088627720FDB800D66450973E /* JRSettingsButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312824BA796FA4786392991297811E54 /* JRSettingsButtonCell.swift */; };
+		B69E0B9E1CA32A1CB3098D49567D96A7 /* JRCreditcardFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3BC8970870C74FA8A47F18D77946E2 /* JRCreditcardFormatter.swift */; };
+		B71106F952478C08449F10FD53ABBE7C /* JRSelectCardsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080A499CE114675FF6A78C485F387A72 /* JRSelectCardsCell.swift */; };
+		B7E7B08D781CC4F79485C280F2BECE29 /* JRContestsMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFDFC37FBEE1A520869401886A74844 /* JRContestsMapper.swift */; };
+		B92D5C7C96439CBD8E113DBEED7305E4 /* Oswald-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF9B56EE9B573CBCF2D7931D1D79F867 /* Oswald-Bold.ttf */; };
+		B98445D8E3EEB5E103723ADA014F4144 /* JRSettingsTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8FEA8354C6BB1AB927DF435147A453 /* JRSettingsTextFieldCell.swift */; };
+		BA60E112BF256CF0E2F713CF5FFCA3DD /* JROAuthMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4B94F078FD5516CF8E444E0431921F /* JROAuthMapper.swift */; };
+		BB1EA7BB2C1695F2FE664A1D1B2CB4FC /* JRBottomBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2F488CA081B062F4C5FD680C787CA1 /* JRBottomBarViewController.swift */; };
+		BB7548452D321FB2F54B37B42B43F216 /* PagingMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E1F5FD2913A716AB6A5F38C81F3E7D /* PagingMenuController.swift */; };
+		BBFEC9B207E1455D293E33A70DC4E09B /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2866A9020A3B9CE09590DE4FACF14A3C /* MenuItemView.swift */; };
+		BD67ED3C35419C0B2B803A503F936660 /* ZoozRiskResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CBD43AA9495444AB37EA2BC64DDC62E /* ZoozRiskResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDB013B0EDB36EF360F962353FFCE0AF /* JRMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C277BC6384D62973B1E4A2948B7FD28A /* JRMain.storyboard */; };
+		C159B1750D24D6410014EE68B7B3AF8F /* JRAppInfoMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD36B3E2681E03E91EAFE3477729BFAB /* JRAppInfoMapper.swift */; };
+		C2441A12F8E73ABA7885B279B811916E /* JRDeleteCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7FE5C81B0AD300C96EF4F3297CF710 /* JRDeleteCardViewController.swift */; };
+		C2E06C32B78D2582D82DE719F7A22BEA /* JRAddNewCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B8EC364061D3EC6EE68EAEC96326F5 /* JRAddNewCardViewController.swift */; };
+		C59A32D31977F54E622C8B48F3D71596 /* JRRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CEC3C49019DFD4DA4F7382AF1147B2 /* JRRootViewController.swift */; };
+		C6ABBF58519AEB8BE5C8D1C5959A4B97 /* JRSocialLoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C398F65DAB85CC542C69B76414C6CDAA /* JRSocialLoginManager.swift */; };
+		C8070A437A286095154D0C5703339CD8 /* JRSettingsTextViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4465ECF8214C8C1AEF493A5C5EF87817 /* JRSettingsTextViewCell.swift */; };
+		C94C6A335D1F21ECB380AB46E1DA999B /* ZoozController.h in Headers */ = {isa = PBXBuildFile; fileRef = 762D82C81A3CF7CBB03D5B8FC868464F /* ZoozController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBC3EA57BAF27D66513D6FBF42BBF1D0 /* JRLeaderboardPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD68E151E87262EBB2949F3EC4E447E /* JRLeaderboardPageController.swift */; };
+		CBE79C1F57F3441571E50E6916643A87 /* JRViewControllerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E49451F68DA3C0C222B79C01BC920BE /* JRViewControllerBase.swift */; };
+		CC1D935593B86859C01405E6255243AC /* Oswald-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A7B4B5D3C8E6F5EFDE56DB8445F3A35 /* Oswald-Regular.ttf */; };
+		CC716720A57D85154CF2A7C3B10E4853 /* EnumTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF30860AB233CFE12B9E9B73025FC5B /* EnumTransform.swift */; };
+		CD819AD7F0919A5656CE12A3D0C77D13 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F87BD26E4B273E28BADD0DB0AC228F1 /* ResponseSerialization.swift */; };
+		CE2664861FCA339CF07C1885746A5033 /* JRPaymentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9804095856C99275D09C6207CA103AF1 /* JRPaymentManager.swift */; };
+		CE4802A7A3A4BA0D17AC63EFF32BC6D6 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C25730710342DAE1BBAA5C72BE3FCD /* MenuView.swift */; };
+		D23D056EED66C7767C2B77E6C65E47D9 /* TransformOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E2180A83A283E88CE5C316EE62FA63 /* TransformOf.swift */; };
+		D474425C4C60B1A5CD09C9F7AB1F3B04 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECCCFF1023EFC9C666DFE37409D576F /* TaskDelegate.swift */; };
+		D5670BF67BCD6C3CB79F73138C953D8A /* JackpotRising.h in Headers */ = {isa = PBXBuildFile; fileRef = A3BF0F3E2D6E15CDFF191889DDA2AFCA /* JackpotRising.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D68A2B46AA3C5987832A708B1DCE63E3 /* JRPlayerCreatedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CF0C67788027C1E5B1C7C71D248335 /* JRPlayerCreatedViewController.swift */; };
+		D6E6EF093CA6AAE515A689AF17252B55 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BB6363CB2112D1C803DAA423B78029 /* SessionManager.swift */; };
+		D6FAD189CB1DD7951550C528ED9DEAA0 /* ZoozEcomm.h in Headers */ = {isa = PBXBuildFile; fileRef = B8D5E8B85D259E8485B0C988DDBF8162 /* ZoozEcomm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D803B8783FE46581C0E39B25517688B7 /* JRBadgeImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378DFD1F75017B814035A6E044109B4E /* JRBadgeImage.swift */; };
+		D8D9184E48A0A049913F2FA1E37659BE /* JRError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5060E54953D6203F2DB6B934D95D214C /* JRError.swift */; };
+		DA267573AE9332516B846693C108639E /* JRTournamentsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A0085D15406A8C37C7FC77B47EEF0F /* JRTournamentsPageViewController.swift */; };
+		DE529CF4887C0C06DBC6B61C68D34540 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9132710D4414A08E4CA84D508B24A0F /* NetworkReachabilityManager.swift */; };
+		DF75B9A620824F3A19659EA31F507AF9 /* Pods-SwiftDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EB9C95E31617974F49D8DDE8F6F7182 /* Pods-SwiftDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E03235908B3F4364019C4706CE79941B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D1D71D5FCD47A37495848E51766B337 /* Foundation.framework */; };
+		E5293B0C2219926B5C332548B812F254 /* JRInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A77E8C08EE90B9265836E0B7F36241 /* JRInitializer.swift */; };
+		E6ECF197ADEB3812D11646EEF7C29574 /* JROverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F908212C005FF56486FAD474EB92E3B9 /* JROverlayView.swift */; };
+		E747E9FC44F4390BF1B3D72DC85A7DE4 /* JRAccountSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F835B56911456E2D1678022CE7660DFF /* JRAccountSettingsViewController.swift */; };
+		E7E2930CCE7B44B82BC752CCB8D3148F /* JRProfileOtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF468EF1A8C4E49A0A40FDF60E027D3 /* JRProfileOtherViewController.swift */; };
+		E9CD479B0EC5FC32B7CD1FB754EE9C95 /* JRCommonTableHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CB6776C6B92260585BF18BFAE95B12 /* JRCommonTableHeader.swift */; };
+		EDAC2350CB79823863679F3AFDAD40F2 /* JRWebkitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8511E1A981C3CFB102CF3A288173E34B /* JRWebkitController.swift */; };
+		EEE0EDB4788200D0EA2EFB92B8892C23 /* JRRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3B0A1383B8C02412904F7B1BBF6B60 /* JRRegisterViewController.swift */; };
+		F04F366B815870B97E0A3FBFC4967798 /* DateFormatterTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08561BD9D0F53B77B8B46D8FB2F4079B /* DateFormatterTransform.swift */; };
+		F08268C5329B149097E20EB36BBCD403 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607F7FFC6A838C47B9859988C192E57C /* SessionDelegate.swift */; };
+		F0AF5DB327EB9B1D598CB9015F514F27 /* NSString+JackpotRising.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A6920A71C14239B817DF25A142F232 /* NSString+JackpotRising.m */; };
+		F0E0E326977ABC239ABC38465D24B8C3 /* String+SwiftLuhn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF5FF7B8F566757E753C552484B1F11 /* String+SwiftLuhn.swift */; };
+		F167A7C2F203AF898095274E9452CADF /* ZoozRemovePaymentMethodResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = E86D85AD3AC3F31324DF4E7CF44CA761 /* ZoozRemovePaymentMethodResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F210549C1B05CFC20032AEC8C588472B /* TransformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871EFF75A21C081650D6B222A68210C6 /* TransformType.swift */; };
+		F3FECC4965EC6A72828D1C6EA97C9B45 /* ZoozRemovePaymentMethodRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 37411BBFB0DAE4098CC487A131C57209 /* ZoozRemovePaymentMethodRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F596B938DEDB672A68E3B2CB5EDA3D98 /* ToJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7ADB26756DC74CD40D78962964548D /* ToJSON.swift */; };
+		F83B27C945DF1B1108F506416B4367EB /* ZFRippleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D72B182BF15208204FCC012E09BB67B /* ZFRippleButton.swift */; };
+		FA958EC17ECE92A52955869DEFD69D72 /* JRTournamentRulesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711F0BB655121AC60CF33B7279B21E67 /* JRTournamentRulesCell.swift */; };
+		FF32FFEF8FA30A63DFF5D51F35943B0E /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EF8F895F6AD6DF32896E2B0FD0E565 /* Timeline.swift */; };
+		FF7159DDDA27B3664BAF6981C4C6BCC6 /* JRBaseMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336885947C74FE6C60B83ADD4D31AC03 /* JRBaseMapper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCEB22A68AD38092A05124E464D8D4BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27CCB3A2284577B6B48A736E5F7AD498;
+			remoteInfo = JackpotRising;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		013F4F5E5D0BCBC3C4DB1074C7F8264C /* Map.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		04A69E83AC639ECC2E1DBB4F6151D165 /* JackpotRising.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JackpotRising.modulemap; sourceTree = "<group>"; };
+		05E121ED485DAAB20C478022293BB556 /* ZoozAddPaymentMethodResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZoozAddPaymentMethodResponse.h; sourceTree = "<group>"; };
+		064F863ADC18E9160592AB6A76417958 /* JRFriendsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRFriendsViewController.swift; sourceTree = "<group>"; };
+		06F3DEB07991DC3B736B55BD8D860FE3 /* JRWithdrawAddressCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRWithdrawAddressCell.swift; sourceTree = "<group>"; };
+		080A499CE114675FF6A78C485F387A72 /* JRSelectCardsCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRSelectCardsCell.swift; sourceTree = "<group>"; };
+		082CE66AD0968A6062A2270A6CD7CEAD /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		08561BD9D0F53B77B8B46D8FB2F4079B /* DateFormatterTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DateFormatterTransform.swift; sourceTree = "<group>"; };
+		08BCD4E8EA5D84459E5F29CE60714D87 /* JRTournamentDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRTournamentDetailViewController.swift; sourceTree = "<group>"; };
+		094C09FA1686268989F3C18F29506C1F /* JackpotRising.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JackpotRising.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		09617F0B809CF6EE98AAB263A6F51EDB /* Pods-SwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		0B5042FC6189494F0490E52B65898DC8 /* JRTournamentViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRTournamentViewController.swift; sourceTree = "<group>"; };
+		0BAD1217E635368A54F60579F1DB5591 /* JRLocationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRLocationManager.swift; sourceTree = "<group>"; };
+		10548540B966133DDD15C527DC843A99 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		123CB076591FC096A3E0F0C6BE2B5CD9 /* ZoozRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZoozRequest.h; sourceTree = "<group>"; };
+		1A3BC8970870C74FA8A47F18D77946E2 /* JRCreditcardFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRCreditcardFormatter.swift; sourceTree = "<group>"; };
+		1B7ADB26756DC74CD40D78962964548D /* ToJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ToJSON.swift; sourceTree = "<group>"; };
+		1D3729BB319485B30477AF30739D5E2E /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
+		1DC7567C0CC9A9D327202E39E40F4E85 /* JRProfileOtherPageController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRProfileOtherPageController.swift; sourceTree = "<group>"; };
+		1E1A6DA0D125DC83D1D260842FA1F684 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		1F2A126E6B8C712D53372FF491AB485F /* JackpotRising.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JackpotRising.swift; sourceTree = "<group>"; };
+		213B60F82C905D726D46017B2F94A40E /* MenuItemViewCustomizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MenuItemViewCustomizable.swift; sourceTree = "<group>"; };
+		24FC0AB66090CD1E5F17DF23D255DB25 /* JackpotRising.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JackpotRising.xcconfig; sourceTree = "<group>"; };
+		2866A9020A3B9CE09590DE4FACF14A3C /* MenuItemView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MenuItemView.swift; sourceTree = "<group>"; };
+		2A8FEA8354C6BB1AB927DF435147A453 /* JRSettingsTextFieldCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRSettingsTextFieldCell.swift; sourceTree = "<group>"; };
+		2B8B8223E7D3215729EA8C2AEDF6507F /* DropDownCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DropDownCell.swift; sourceTree = "<group>"; };
+		2BAC0846B956C80AAB9E221FAEA5D37A /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		2C8FFDD2984DD09276A4B9A93B216C6D /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "DPDUIView+Extension.swift"; sourceTree = "<group>"; };
+		2CCF257426D4AA67C51CE14AC2409AF9 /* Pods-SwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
+		2FDFA9C02251D2B2FC29118634E6C6CE /* Pagable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Pagable.swift; sourceTree = "<group>"; };
+		30BB6363CB2112D1C803DAA423B78029 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		312824BA796FA4786392991297811E54 /* JRSettingsButtonCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRSettingsButtonCell.swift; sourceTree = "<group>"; };
+		3143D65D2D573653578F01A531940A7E /* ZoozAddress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZoozAddress.h; sourceTree = "<group>"; };
+		336885947C74FE6C60B83ADD4D31AC03 /* JRBaseMapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRBaseMapper.swift; sourceTree = "<group>"; };
+		3389BE633E71A7D3D9971893E4AD396E /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		3527091988542B0504E13A19786B30B7 /* ZoozPaymentMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZoozPaymentMethod.h; sourceTree = "<group>"; };
+		355010B65D17BB32BAD34384E59DDF59 /* ZoozPhone.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZoozPhone.h; sourceTree = "<group>"; };
+		358391F34B8E13CB312F5759EFD3BED0 /* PagingViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PagingViewController.swift; sourceTree = "<group>"; };
+		3658D3A0FBB2CC256EF309B485AE1441 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		37411BBFB0DAE4098CC487A131C57209 /* ZoozRemovePaymentMethodRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZoozRemovePaymentMethodRequest.h; sourceTree = "<group>"; };
+		378DFD1F75017B814035A6E044109B4E /* JRBadgeImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRBadgeImage.swift; sourceTree = "<group>"; };
+		37DEE02B23DCF3833AD3B2207081B63E /* JRTopBarViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRTopBarViewController.swift; sourceTree = "<group>"; };
+		38AC3F42C16DA82BE44D4F1F42ED07E7 /* CustomDateFormatTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CustomDateFormatTransform.swift; sourceTree = "<group>"; };
+		3A1B33BA8C636DD8FD3786D8CF4E0C3E /* ZoozSDKWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZoozSDKWrapper.h; sourceTree = "<group>"; };
+		3A7B4B5D3C8E6F5EFDE56DB8445F3A35 /* Oswald-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = "Oswald-Regular.ttf"; sourceTree = "<group>"; };
+		3C3B810DFD37BF7FAF97E4B82C6A720A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		3EF5FF7B8F566757E753C552484B1F11 /* String+SwiftLuhn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+SwiftLuhn.swift"; sourceTree = "<group>"; };
+		3F71E3FC6D3B78C02393013AC261C895 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		3F9683FCC3CD2270FD644B7B425FC792 /* JRAppVersionMapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRAppVersionMapper.swift; sourceTree = "<group>"; };
+		40DF84B1D9B80B40C683ACA570B85B9F /* DictionaryTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DictionaryTransform.swift; sourceTree = "<group>"; };
+		4465ECF8214C8C1AEF493A5C5EF87817 /* JRSettingsTextViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRSettingsTextViewCell.swift; sourceTree = "<group>"; };
+		45CCE1ECE952BF1C6560CDB6C51AE215 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		46B8EC364061D3EC6EE68EAEC96326F5 /* JRAddNewCardViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRAddNewCardViewController.swift; sourceTree = "<group>"; };
+		49FC7C80554C3E6A07C5746D85DA93EE /* JRWithdrawTextFieldCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRWithdrawTextFieldCell.swift; sourceTree = "<group>"; };
+		4BBE5761768AD5181C2DDD692DF0C361 /* ZoozPaymentMethodDetails.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZoozPaymentMethodDetails.h; sourceTree = "<group>"; };
+		4D7FE5C81B0AD300C96EF4F3297CF710 /* JRDeleteCardViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRDeleteCardViewController.swift; sourceTree = "<group>"; };
+		4F9498A3DD453A5A4B93E893D4938417 /* JRLeaderboardListController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRLeaderboardListController.swift; sourceTree = "<group>"; };
+		5060E54953D6203F2DB6B934D95D214C /* JRError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRError.swift; sourceTree = "<group>"; };
+		50F4D678CD6C362418AC13907F7FF612 /* ZoozSDKWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZoozSDKWrapper.m; sourceTree = "<group>"; };
+		50FE1B2409A44F259BD2F8CDDD943B37 /* JRAPIServices.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRAPIServices.swift; sourceTree = "<group>"; };
+		5207CCA490CA8C09E6368C2DC69E5FC0 /* JRLeaderboardViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRLeaderboardViewController.swift; sourceTree = "<group>"; };
+		58E94C21BA51ADEBF51B3B4D9BE936D5 /* JRSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRSegue.swift; sourceTree = "<group>"; };
+		5BFDFC37FBEE1A520869401886A74844 /* JRContestsMapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRContestsMapper.swift; sourceTree = "<group>"; };
+		5C6958105830C034AD38F9A65DC5738E /* JRConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRConstants.swift; sourceTree = "<group>"; };
+		5E08C861996FEC42F8C8376B90C324D7 /* NSDecimalNumberTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NSDecimalNumberTransform.swift; sourceTree = "<group>"; };
+		5EB9C95E31617974F49D8DDE8F6F7182 /* Pods-SwiftDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftDemo-umbrella.h"; sourceTree = "<group>"; };
+		5F87BD26E4B273E28BADD0DB0AC228F1 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ResponseSerialization.swift; sourceTree = "<group>"; };
+		5FAADB79BA850568600265E86669647D /* Pods_SwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FF0C2A4C03171FAFD58983C9D744C51 /* JRWithdrawRequestForm.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRWithdrawRequestForm.swift; sourceTree = "<group>"; };
+		607F7FFC6A838C47B9859988C192E57C /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SessionDelegate.swift; sourceTree = "<group>"; };
+		62BA9F285ACD5C38809F6C47C5D78C08 /* ZoozAddPaymentMethodRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZoozAddPaymentMethodRequest.h; sourceTree = "<group>"; };
+		62DFBCE064C091C562C96DA74B0B8792 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		660C7160C70F764E995742CDC0B0DF10 /* JRProfileViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRProfileViewController.swift; sourceTree = "<group>"; };
+		66D389D4CDA7560E4E780B14AC597B0D /* ZooziOSStatic.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZooziOSStatic.framework; path = JackpotRising/External/ZooziOSStatic.framework; sourceTree = "<group>"; };
+		6723FC67258B8C91CE2F54D6F4696F8F /* Mapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Mapper.swift; sourceTree = "<group>"; };
+		6AA5DF8D33729E23A3A52129FD1A6DCE /* JRSettingsSwitchCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRSettingsSwitchCell.swift; sourceTree = "<group>"; };
+		6D72B182BF15208204FCC012E09BB67B /* ZFRippleButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZFRippleButton.swift; sourceTree = "<group>"; };
+		6E49451F68DA3C0C222B79C01BC920BE /* JRViewControllerBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRViewControllerBase.swift; sourceTree = "<group>"; };
+		6F92467EF25BFD0BD8CAE5376A13A1B2 /* JRPopupTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRPopupTextField.swift; sourceTree = "<group>"; };
+		70A77E8C08EE90B9265836E0B7F36241 /* JRInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRInitializer.swift; sourceTree = "<group>"; };
+		711F0BB655121AC60CF33B7279B21E67 /* JRTournamentRulesCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRTournamentRulesCell.swift; sourceTree = "<group>"; };
+		72907061E260DF7D3A55A01FD2212901 /* AlamofireObjectMapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AlamofireObjectMapper.swift; sourceTree = "<group>"; };
+		7349B8BCFBC07948045D3789C477D3F2 /* JRLeaderboardTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRLeaderboardTableViewCell.swift; sourceTree = "<group>"; };
+		74CFE8CF26386F1CA9B0D43664DCBC4E /* JRSettingsPageController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRSettingsPageController.swift; sourceTree = "<group>"; };
+		750E0E004FE4CC22FE459726B151C9C5 /* JRLeaderBoardMapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRLeaderBoardMapper.swift; sourceTree = "<group>"; };
+		7568661D90B3BB635D73C726A2618E10 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75A0085D15406A8C37C7FC77B47EEF0F /* JRTournamentsPageViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRTournamentsPageViewController.swift; sourceTree = "<group>"; };
+		762D82C81A3CF7CBB03D5B8FC868464F /* ZoozController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZoozController.h; sourceTree = "<group>"; };
+		7811952FBBF547CE7F7BB1EBB4C980EE /* URLTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = URLTransform.swift; sourceTree = "<group>"; };
+		7980C46B1D43B040BF7488528E11EE6F /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		7B021FC4D54F0BDA71B343E637CDFAF4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		7B3B0A1383B8C02412904F7B1BBF6B60 /* JRRegisterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRRegisterViewController.swift; sourceTree = "<group>"; };
+		7C1DE368B1E8689457D6B85EDACCDF2E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7F693444F8A945D9DB84FD98FFCFE615 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		81CB6776C6B92260585BF18BFAE95B12 /* JRCommonTableHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRCommonTableHeader.swift; sourceTree = "<group>"; };
+		824B35EEFA773FC685A7D9886BEB24CB /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
+		8251D1784F3E00FC89471A71896D7242 /* JRTournamentRulesViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRTournamentRulesViewController.swift; sourceTree = "<group>"; };
+		82DF1F7F0B73FCAD9530F7384BB27D4E /* JRAllowedStates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRAllowedStates.swift; sourceTree = "<group>"; };
+		83410D790F03C68C14D8CB1880BCCB34 /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
+		834E850CB60F226BFDC7D8E00C688DB5 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MultipartFormData.swift; sourceTree = "<group>"; };
+		84B97F6D8B2F4F3605E32BCBDA0CC479 /* Pods-SwiftDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8511E1A981C3CFB102CF3A288173E34B /* JRWebkitController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRWebkitController.swift; sourceTree = "<group>"; };
+		85AF5F7FA97574CD40743B98CFEB70BE /* JRAccountSettingsModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRAccountSettingsModel.swift; sourceTree = "<group>"; };
+		85CEC3C49019DFD4DA4F7382AF1147B2 /* JRRootViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRRootViewController.swift; sourceTree = "<group>"; };
+		85E1F5FD2913A716AB6A5F38C81F3E7D /* PagingMenuController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PagingMenuController.swift; sourceTree = "<group>"; };
+		85E2180A83A283E88CE5C316EE62FA63 /* TransformOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TransformOf.swift; sourceTree = "<group>"; };
+		871EFF75A21C081650D6B222A68210C6 /* TransformType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TransformType.swift; sourceTree = "<group>"; };
+		888DAF3B6C70873E2F0E6E10A75784B4 /* JRSettingsDropDownCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRSettingsDropDownCell.swift; sourceTree = "<group>"; };
+		8B2F488CA081B062F4C5FD680C787CA1 /* JRBottomBarViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRBottomBarViewController.swift; sourceTree = "<group>"; };
+		8C45E3B7D557BDA25898C275AEE7D886 /* JRFriendsTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRFriendsTableViewCell.swift; sourceTree = "<group>"; };
+		8CBD43AA9495444AB37EA2BC64DDC62E /* ZoozRiskResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZoozRiskResult.h; sourceTree = "<group>"; };
+		8CF468EF1A8C4E49A0A40FDF60E027D3 /* JRProfileOtherViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRProfileOtherViewController.swift; sourceTree = "<group>"; };
+		8D4B94F078FD5516CF8E444E0431921F /* JROAuthMapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JROAuthMapper.swift; sourceTree = "<group>"; };
+		8D996DA18ADE9BE8224563EE379F9036 /* JRMonthYearPickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRMonthYearPickerView.swift; sourceTree = "<group>"; };
+		8E2895854B82E71C32D2903CA1FB8290 /* Pods-SwiftDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		8ECCCFF1023EFC9C666DFE37409D576F /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskDelegate.swift; sourceTree = "<group>"; };
+		8F75A5906482117CF1B59174E2B47FAF /* JRCountriesListMapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRCountriesListMapper.swift; sourceTree = "<group>"; };
+		90D30A0744997B25C1D17ED7BE88EB53 /* MenuViewCustomizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MenuViewCustomizable.swift; sourceTree = "<group>"; };
+		91C25730710342DAE1BBAA5C72BE3FCD /* MenuView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9475638746473406CFBFC5F002B4FC77 /* JRGeneralSettingsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRGeneralSettingsViewController.swift; sourceTree = "<group>"; };
+		9562F0D7A30DAF34FCD096C6FB68ECD6 /* Pods-SwiftDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SwiftDemo.modulemap"; sourceTree = "<group>"; };
+		96913AB9ACC1DFDE9BF5105E450A5276 /* PagingMenuControllerCustomizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PagingMenuControllerCustomizable.swift; sourceTree = "<group>"; };
+		96C73F54B6FEC4867F472BFB2BA3F58A /* NSString+JackpotRising.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+JackpotRising.h"; sourceTree = "<group>"; };
+		97A6920A71C14239B817DF25A142F232 /* NSString+JackpotRising.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+JackpotRising.m"; sourceTree = "<group>"; };
+		97D71E11787CA06603A15D62A94FBE1A /* ZooZEcommDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZooZEcommDevice.h; sourceTree = "<group>"; };
+		9804095856C99275D09C6207CA103AF1 /* JRPaymentManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRPaymentManager.swift; sourceTree = "<group>"; };
+		987C0FB33B50BF3EDB2429E9F9900BE9 /* DPDConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DPDConstants.swift; sourceTree = "<group>"; };
+		9917CD523A69A278105E0F6DFB897D62 /* JRCardDetailsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRCardDetailsViewController.swift; sourceTree = "<group>"; };
+		9A2B947371C550496E9816FE7AAC9CAB /* JRRegistrationMapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRRegistrationMapper.swift; sourceTree = "<group>"; };
+		9BCF7F1F6B7BC779425FFD46E51C7A00 /* ZoozRisk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZoozRisk.h; sourceTree = "<group>"; };
+		9CA4477D5D94CBC5898634BE950FF92D /* SwiftLuhn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SwiftLuhn.swift; sourceTree = "<group>"; };
+		9D1D71D5FCD47A37495848E51766B337 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A0BC8626A81FB37B8263B7DB3A8C2D38 /* Mappable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Mappable.swift; sourceTree = "<group>"; };
+		A0CE5B815B083A2367C4D8691A52A20E /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
+		A148C41439B691DCDC9178ED26ACED74 /* JRContestPlayMapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRContestPlayMapper.swift; sourceTree = "<group>"; };
+		A3BF0F3E2D6E15CDFF191889DDA2AFCA /* JackpotRising.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JackpotRising.h; path = JackpotRising/JackpotRising.h; sourceTree = "<group>"; };
+		A6EF9B6CCC6C8F80D6DB8B2A3202E39B /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AFError.swift; sourceTree = "<group>"; };
+		A77FC350C3B50513FD44C14C546B8C21 /* JRLoginViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRLoginViewController.swift; sourceTree = "<group>"; };
+		AA475BE8B607FC6755C57FB6BBFEF56D /* JRWithdrawTypeCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRWithdrawTypeCell.swift; sourceTree = "<group>"; };
+		AA74646F2A4793CC9C5B83AA0CC2AFF9 /* ISO8601DateTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ISO8601DateTransform.swift; sourceTree = "<group>"; };
+		AF910BF260BDF4953401EBFC8EC4F287 /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DPDKeyboardListener.swift; sourceTree = "<group>"; };
+		AFBBC998576529475F0CF1CCD8042A2F /* JRTournamentTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRTournamentTableViewCell.swift; sourceTree = "<group>"; };
+		B0AB0D3D7BDFDA801AC4D4C4F3A24DE6 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		B313698403622013C88C6EA5E8946D73 /* ZoozEcommResponseObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZoozEcommResponseObject.h; sourceTree = "<group>"; };
+		B4B83DB1EA0031CC7A293FF078C5AE9D /* JRAlertsPageViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRAlertsPageViewController.swift; sourceTree = "<group>"; };
+		B4CF0C67788027C1E5B1C7C71D248335 /* JRPlayerCreatedViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRPlayerCreatedViewController.swift; sourceTree = "<group>"; };
+		B67BACCE395C1D0BA4A980E0FCCEAA38 /* JRContentViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRContentViewController.swift; sourceTree = "<group>"; };
+		B70A5175AB12264025405ACD8AE138A6 /* Pods-SwiftDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftDemo-resources.sh"; sourceTree = "<group>"; };
+		B8D5E8B85D259E8485B0C988DDBF8162 /* ZoozEcomm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZoozEcomm.h; sourceTree = "<group>"; };
+		BCA053274AAFC9453BD9441B9590EDA3 /* JRTournamentsPageController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRTournamentsPageController.swift; sourceTree = "<group>"; };
+		BCEBA9195D43A3CD1470168CDA712F7A /* JRGraphView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRGraphView.swift; sourceTree = "<group>"; };
+		BCF30860AB233CFE12B9E9B73025FC5B /* EnumTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EnumTransform.swift; sourceTree = "<group>"; };
+		BF5EDE69E94C922CF7581C34E5453E57 /* JRAsyncImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRAsyncImageView.swift; sourceTree = "<group>"; };
+		C23BE4C54D21990F7F2CB032CFF5C965 /* JackpotRising-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JackpotRising-prefix.pch"; sourceTree = "<group>"; };
+		C277BC6384D62973B1E4A2948B7FD28A /* JRMain.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = JRMain.storyboard; sourceTree = "<group>"; };
+		C398F65DAB85CC542C69B76414C6CDAA /* JRSocialLoginManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRSocialLoginManager.swift; sourceTree = "<group>"; };
+		C5ECB13492C118D2E1C0D75795F3BF66 /* JRPaymentMappers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRPaymentMappers.swift; sourceTree = "<group>"; };
+		C6400544CF39B295441C2C1CB02C120F /* JRActivityIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRActivityIndicator.swift; sourceTree = "<group>"; };
+		C8EF8F895F6AD6DF32896E2B0FD0E565 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Timeline.swift; sourceTree = "<group>"; };
+		CC4D1EA49DAB5BD4CECFA33EC07E9B79 /* JRLoginPageViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRLoginPageViewController.swift; sourceTree = "<group>"; };
+		CD36B3E2681E03E91EAFE3477729BFAB /* JRAppInfoMapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRAppInfoMapper.swift; sourceTree = "<group>"; };
+		CDE6019C31551CDBF731AAAF117483E3 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE398C707CC48F0BDBCA0BC9E3963B13 /* JRMoment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRMoment.swift; sourceTree = "<group>"; };
+		CEDC48F809FBBF04E5742B6D1EB058DA /* ZoozServerResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZoozServerResponse.h; sourceTree = "<group>"; };
+		CF9B56EE9B573CBCF2D7931D1D79F867 /* Oswald-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = "Oswald-Bold.ttf"; sourceTree = "<group>"; };
+		D1C2738988B5C815B148894F73C1198F /* JRScoreSubmitManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRScoreSubmitManager.swift; sourceTree = "<group>"; };
+		D1F1C8EE9443F5B647D419DBCE89A23D /* Pods-SwiftDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftDemo-dummy.m"; sourceTree = "<group>"; };
+		D20EDCE1AA4B2F9FF10E8F0250797D2C /* JRMapQuestMapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRMapQuestMapper.swift; sourceTree = "<group>"; };
+		D322BC48807AF363862970C6DEF3C744 /* Pods-SwiftDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftDemo-frameworks.sh"; sourceTree = "<group>"; };
+		D3E046E3DFE272DF355AD33DE5B84FBF /* JRCustomClasses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRCustomClasses.swift; sourceTree = "<group>"; };
+		D47DA2A39D97285F5A802CA85355EE51 /* DataTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DataTransform.swift; sourceTree = "<group>"; };
+		D6249D281AF6E855DC25ED25D24D337A /* DropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DropDown.swift; sourceTree = "<group>"; };
+		D6F01585FA65D40116AEFB2A9F763236 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		D844E7EEDA047015176CBAF0467E03C3 /* Oswald-Light.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = "Oswald-Light.ttf"; sourceTree = "<group>"; };
+		D94E5F58A38EC6293E5BC8809294FF82 /* JRSocialPageViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRSocialPageViewController.swift; sourceTree = "<group>"; };
+		DB41975141CF655D17BF35F7D260EB9A /* JRSharedData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRSharedData.swift; sourceTree = "<group>"; };
+		DBD18374771D1E8B14B12AAD88AB5160 /* DateTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DateTransform.swift; sourceTree = "<group>"; };
+		DDD68E151E87262EBB2949F3EC4E447E /* JRLeaderboardPageController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRLeaderboardPageController.swift; sourceTree = "<group>"; };
+		E09332AF221DAB712A8CE67CE560F83A /* DropDown+Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "DropDown+Appearance.swift"; sourceTree = "<group>"; };
+		E6AB7A6D21CC8D73D4FDF0FA868E9F31 /* JackpotRising-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JackpotRising-dummy.m"; sourceTree = "<group>"; };
+		E6B099B4BD8322BB65362AF4F6BC78BA /* JRAlertsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRAlertsViewController.swift; sourceTree = "<group>"; };
+		E6CBD7EC7EAEDF883B3AA4E0216DE0D0 /* JRTournamentDetailTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRTournamentDetailTableViewCell.swift; sourceTree = "<group>"; };
+		E86D85AD3AC3F31324DF4E7CF44CA761 /* ZoozRemovePaymentMethodResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZoozRemovePaymentMethodResponse.h; sourceTree = "<group>"; };
+		E8B6B42BED7625A1F49216222B9C00A8 /* DropDownCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = DropDownCell.xib; sourceTree = "<group>"; };
+		E96E96429159C89E652AFA84B8C8B1D3 /* JRThread.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRThread.swift; sourceTree = "<group>"; };
+		EB2936CDE7C0D864B2EF32E63A9A5AAE /* FromJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FromJSON.swift; sourceTree = "<group>"; };
+		F1743B89D401A3864A3058E7372FC287 /* JRGeneralSettingsModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRGeneralSettingsModel.swift; sourceTree = "<group>"; };
+		F835B56911456E2D1678022CE7660DFF /* JRAccountSettingsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRAccountSettingsViewController.swift; sourceTree = "<group>"; };
+		F908212C005FF56486FAD474EB92E3B9 /* JROverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JROverlayView.swift; sourceTree = "<group>"; };
+		F9132710D4414A08E4CA84D508B24A0F /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		F9DBCD07859D17A2C90CF3BB2C16F90F /* JRAlertTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRAlertTableViewCell.swift; sourceTree = "<group>"; };
+		FC8043609A6420764BB196D17040FC05 /* JRExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JRExtensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51B080D4AFAF6C8150EC0B5C3FABCF4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				446A24C262083225F2FFD5C45836B585 /* Accelerate.framework in Frameworks */,
+				11B16C6CB68995ABD810614FB7140D01 /* CoreLocation.framework in Frameworks */,
+				800FF3EF7370620DCB8E615EC4C58CA1 /* Foundation.framework in Frameworks */,
+				36E3A5A9D517710FBD3B8CB398AAFE36 /* MobileCoreServices.framework in Frameworks */,
+				16698C7795D151F336C64B38D4C45A2B /* QuartzCore.framework in Frameworks */,
+				59CB0F11072013A56B99BDA98DBC2EE1 /* Security.framework in Frameworks */,
+				825488AA92B6DC044B12BB0966DA2043 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA3D202B30D390578DDD13394ADDEA6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E03235908B3F4364019C4706CE79941B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03FBAEF797A6198865D9BB88613FBFBF /* RippleButton */ = {
+			isa = PBXGroup;
+			children = (
+				6D72B182BF15208204FCC012E09BB67B /* ZFRippleButton.swift */,
+			);
+			path = RippleButton;
+			sourceTree = "<group>";
+		};
+		118DB79C93143656C71E8808638296F7 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1F2A126E6B8C712D53372FF491AB485F /* JackpotRising.swift */,
+				C6400544CF39B295441C2C1CB02C120F /* JRActivityIndicator.swift */,
+				70A77E8C08EE90B9265836E0B7F36241 /* JRInitializer.swift */,
+				0BAD1217E635368A54F60579F1DB5591 /* JRLocationManager.swift */,
+				9804095856C99275D09C6207CA103AF1 /* JRPaymentManager.swift */,
+				D1C2738988B5C815B148894F73C1198F /* JRScoreSubmitManager.swift */,
+				58E94C21BA51ADEBF51B3B4D9BE936D5 /* JRSegue.swift */,
+				C398F65DAB85CC542C69B76414C6CDAA /* JRSocialLoginManager.swift */,
+				E96E96429159C89E652AFA84B8C8B1D3 /* JRThread.swift */,
+				6E49451F68DA3C0C222B79C01BC920BE /* JRViewControllerBase.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		14F7A54304F8B7F6B6774AE1D96FC190 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A6EF9B6CCC6C8F80D6DB8B2A3202E39B /* AFError.swift */,
+				1D3729BB319485B30477AF30739D5E2E /* Alamofire.swift */,
+				D6F01585FA65D40116AEFB2A9F763236 /* DispatchQueue+Alamofire.swift */,
+				834E850CB60F226BFDC7D8E00C688DB5 /* MultipartFormData.swift */,
+				F9132710D4414A08E4CA84D508B24A0F /* NetworkReachabilityManager.swift */,
+				3658D3A0FBB2CC256EF309B485AE1441 /* Notifications.swift */,
+				082CE66AD0968A6062A2270A6CD7CEAD /* ParameterEncoding.swift */,
+				B0AB0D3D7BDFDA801AC4D4C4F3A24DE6 /* Request.swift */,
+				10548540B966133DDD15C527DC843A99 /* Response.swift */,
+				5F87BD26E4B273E28BADD0DB0AC228F1 /* ResponseSerialization.swift */,
+				2BAC0846B956C80AAB9E221FAEA5D37A /* Result.swift */,
+				45CCE1ECE952BF1C6560CDB6C51AE215 /* ServerTrustPolicy.swift */,
+				607F7FFC6A838C47B9859988C192E57C /* SessionDelegate.swift */,
+				30BB6363CB2112D1C803DAA423B78029 /* SessionManager.swift */,
+				8ECCCFF1023EFC9C666DFE37409D576F /* TaskDelegate.swift */,
+				C8EF8F895F6AD6DF32896E2B0FD0E565 /* Timeline.swift */,
+				7F693444F8A945D9DB84FD98FFCFE615 /* Validation.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		1AAD16940459A5F103B3BFF2042130C6 /* DataMappers */ = {
+			isa = PBXGroup;
+			children = (
+				85AF5F7FA97574CD40743B98CFEB70BE /* JRAccountSettingsModel.swift */,
+				82DF1F7F0B73FCAD9530F7384BB27D4E /* JRAllowedStates.swift */,
+				CD36B3E2681E03E91EAFE3477729BFAB /* JRAppInfoMapper.swift */,
+				3F9683FCC3CD2270FD644B7B425FC792 /* JRAppVersionMapper.swift */,
+				336885947C74FE6C60B83ADD4D31AC03 /* JRBaseMapper.swift */,
+				A148C41439B691DCDC9178ED26ACED74 /* JRContestPlayMapper.swift */,
+				5BFDFC37FBEE1A520869401886A74844 /* JRContestsMapper.swift */,
+				8F75A5906482117CF1B59174E2B47FAF /* JRCountriesListMapper.swift */,
+				F1743B89D401A3864A3058E7372FC287 /* JRGeneralSettingsModel.swift */,
+				750E0E004FE4CC22FE459726B151C9C5 /* JRLeaderBoardMapper.swift */,
+				D20EDCE1AA4B2F9FF10E8F0250797D2C /* JRMapQuestMapper.swift */,
+				8D4B94F078FD5516CF8E444E0431921F /* JROAuthMapper.swift */,
+				C5ECB13492C118D2E1C0D75795F3BF66 /* JRPaymentMappers.swift */,
+				9A2B947371C550496E9816FE7AAC9CAB /* JRRegistrationMapper.swift */,
+			);
+			path = DataMappers;
+			sourceTree = "<group>";
+		};
+		1BBF11E0899B446906A8524842FDBA94 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CDE6019C31551CDBF731AAAF117483E3 /* Assets.xcassets */,
+				CF9B56EE9B573CBCF2D7931D1D79F867 /* Oswald-Bold.ttf */,
+				D844E7EEDA047015176CBAF0467E03C3 /* Oswald-Light.ttf */,
+				3A7B4B5D3C8E6F5EFDE56DB8445F3A35 /* Oswald-Regular.ttf */,
+			);
+			name = Resources;
+			path = JackpotRising/Resources;
+			sourceTree = "<group>";
+		};
+		1DFAACD39687FCC6896214659CA42A79 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				213B60F82C905D726D46017B2F94A40E /* MenuItemViewCustomizable.swift */,
+				90D30A0744997B25C1D17ED7BE88EB53 /* MenuViewCustomizable.swift */,
+				2FDFA9C02251D2B2FC29118634E6C6CE /* Pagable.swift */,
+				96913AB9ACC1DFDE9BF5105E450A5276 /* PagingMenuControllerCustomizable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		25C785490A25679FFCC76759090AA1B5 /* TournamentRules */ = {
+			isa = PBXGroup;
+			children = (
+				711F0BB655121AC60CF33B7279B21E67 /* JRTournamentRulesCell.swift */,
+				8251D1784F3E00FC89471A71896D7242 /* JRTournamentRulesViewController.swift */,
+			);
+			path = TournamentRules;
+			sourceTree = "<group>";
+		};
+		2BBD1CE16CCFF526EEC9CE30F6D41B38 /* ObjectMapper */ = {
+			isa = PBXGroup;
+			children = (
+				C8A4C383E14A78FC5097AC9C2A18FA02 /* Core */,
+				63D2F558AD39D39AD2ED275603E11D60 /* Transforms */,
+			);
+			path = ObjectMapper;
+			sourceTree = "<group>";
+		};
+		3CC6CFB4030D1EE05DBC75D74E29554E /* Versions */ = {
+			isa = PBXGroup;
+			children = (
+				D684AA54AAF18BD03AA6938424B73310 /* A */,
+			);
+			path = Versions;
+			sourceTree = "<group>";
+		};
+		3EA6BC1CFACC4DEC0EB3B73F856B7AA2 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A77FC350C3B50513FD44C14C546B8C21 /* JRLoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		3EC66A36CBCF0505029CD76F9604CA7E /* Leaderboard */ = {
+			isa = PBXGroup;
+			children = (
+				4F9498A3DD453A5A4B93E893D4938417 /* JRLeaderboardListController.swift */,
+				7349B8BCFBC07948045D3789C477D3F2 /* JRLeaderboardTableViewCell.swift */,
+				5207CCA490CA8C09E6368C2DC69E5FC0 /* JRLeaderboardViewController.swift */,
+			);
+			path = Leaderboard;
+			sourceTree = "<group>";
+		};
+		41FFC000599DE551A6403660777D0F51 /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				987C0FB33B50BF3EDB2429E9F9900BE9 /* DPDConstants.swift */,
+				AF910BF260BDF4953401EBFC8EC4F287 /* DPDKeyboardListener.swift */,
+				2C8FFDD2984DD09276A4B9A93B216C6D /* DPDUIView+Extension.swift */,
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
+		4554217451F8B1FBCE2E1D0ADF4D5EB1 /* ZooziOSStatic.framework */ = {
+			isa = PBXGroup;
+			children = (
+				3CC6CFB4030D1EE05DBC75D74E29554E /* Versions */,
+			);
+			path = ZooziOSStatic.framework;
+			sourceTree = "<group>";
+		};
+		46039AA55BC96C5F40BF287FF128F255 /* Social */ = {
+			isa = PBXGroup;
+			children = (
+				8C45E3B7D557BDA25898C275AEE7D886 /* JRFriendsTableViewCell.swift */,
+				064F863ADC18E9160592AB6A76417958 /* JRFriendsViewController.swift */,
+			);
+			path = Social;
+			sourceTree = "<group>";
+		};
+		5ABE51C55C58AA98E3E8277B3E241538 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7C5700D30D628937A61C6FB6AC32256B /* External */,
+				1BBF11E0899B446906A8524842FDBA94 /* Resources */,
+				95A2EF88AC2426C5347D8231EB4989F7 /* Views */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		62596B50360CB09C0B89B48BA3A5C9C9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BF5EDE69E94C922CF7581C34E5453E57 /* JRAsyncImageView.swift */,
+				378DFD1F75017B814035A6E044109B4E /* JRBadgeImage.swift */,
+				81CB6776C6B92260585BF18BFAE95B12 /* JRCommonTableHeader.swift */,
+				5C6958105830C034AD38F9A65DC5738E /* JRConstants.swift */,
+				1A3BC8970870C74FA8A47F18D77946E2 /* JRCreditcardFormatter.swift */,
+				D3E046E3DFE272DF355AD33DE5B84FBF /* JRCustomClasses.swift */,
+				5060E54953D6203F2DB6B934D95D214C /* JRError.swift */,
+				FC8043609A6420764BB196D17040FC05 /* JRExtensions.swift */,
+				BCEBA9195D43A3CD1470168CDA712F7A /* JRGraphView.swift */,
+				CE398C707CC48F0BDBCA0BC9E3963B13 /* JRMoment.swift */,
+				8D996DA18ADE9BE8224563EE379F9036 /* JRMonthYearPickerView.swift */,
+				F908212C005FF56486FAD474EB92E3B9 /* JROverlayView.swift */,
+				DB41975141CF655D17BF35F7D260EB9A /* JRSharedData.swift */,
+				96C73F54B6FEC4867F472BFB2BA3F58A /* NSString+JackpotRising.h */,
+				97A6920A71C14239B817DF25A142F232 /* NSString+JackpotRising.m */,
+				3EF5FF7B8F566757E753C552484B1F11 /* String+SwiftLuhn.swift */,
+				9CA4477D5D94CBC5898634BE950FF92D /* SwiftLuhn.swift */,
+				3A1B33BA8C636DD8FD3786D8CF4E0C3E /* ZoozSDKWrapper.h */,
+				50F4D678CD6C362418AC13907F7FF612 /* ZoozSDKWrapper.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		637ED8A952CDA19039531BE4BB9347C4 /* PlayerCreated */ = {
+			isa = PBXGroup;
+			children = (
+				B4CF0C67788027C1E5B1C7C71D248335 /* JRPlayerCreatedViewController.swift */,
+			);
+			path = PlayerCreated;
+			sourceTree = "<group>";
+		};
+		63D2F558AD39D39AD2ED275603E11D60 /* Transforms */ = {
+			isa = PBXGroup;
+			children = (
+				38AC3F42C16DA82BE44D4F1F42ED07E7 /* CustomDateFormatTransform.swift */,
+				D47DA2A39D97285F5A802CA85355EE51 /* DataTransform.swift */,
+				08561BD9D0F53B77B8B46D8FB2F4079B /* DateFormatterTransform.swift */,
+				DBD18374771D1E8B14B12AAD88AB5160 /* DateTransform.swift */,
+				40DF84B1D9B80B40C683ACA570B85B9F /* DictionaryTransform.swift */,
+				BCF30860AB233CFE12B9E9B73025FC5B /* EnumTransform.swift */,
+				AA74646F2A4793CC9C5B83AA0CC2AFF9 /* ISO8601DateTransform.swift */,
+				5E08C861996FEC42F8C8376B90C324D7 /* NSDecimalNumberTransform.swift */,
+				85E2180A83A283E88CE5C316EE62FA63 /* TransformOf.swift */,
+				871EFF75A21C081650D6B222A68210C6 /* TransformType.swift */,
+				7811952FBBF547CE7F7BB1EBB4C980EE /* URLTransform.swift */,
+			);
+			path = Transforms;
+			sourceTree = "<group>";
+		};
+		649E6D24AA0A159506E4DCB1C9442FF0 /* SkyFloatingLabelTextField */ = {
+			isa = PBXGroup;
+			children = (
+				83410D790F03C68C14D8CB1880BCCB34 /* SkyFloatingLabelTextField.swift */,
+				824B35EEFA773FC685A7D9886BEB24CB /* SkyFloatingLabelTextFieldWithIcon.swift */,
+				A0CE5B815B083A2367C4D8691A52A20E /* UITextField+fixCaretPosition.swift */,
+			);
+			path = SkyFloatingLabelTextField;
+			sourceTree = "<group>";
+		};
+		66332FA8BA4A4DCB08B1CB86C5F1C123 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				50FE1B2409A44F259BD2F8CDDD943B37 /* JRAPIServices.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		69971A4F28808224BE59710FB912A077 /* JackpotRising */ = {
+			isa = PBXGroup;
+			children = (
+				A3BF0F3E2D6E15CDFF191889DDA2AFCA /* JackpotRising.h */,
+				D851465FC234263130958902D22B9496 /* Controllers */,
+				782745962CB4C1EB4FFB19595B8E5F02 /* External */,
+				E3BB709DAC465B5F43B16BC2EC3C7CDA /* Frameworks */,
+				871D2AECB51D9C64350227FF55ACA09D /* Models */,
+				5ABE51C55C58AA98E3E8277B3E241538 /* Resources */,
+				D28A542A9D37FA34103118724F2D4996 /* Support Files */,
+			);
+			name = JackpotRising;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6D838F7A749EFA8BC16B828BCD20A0AC /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7980C46B1D43B040BF7488528E11EE6F /* Accelerate.framework */,
+				3F71E3FC6D3B78C02393013AC261C895 /* CoreLocation.framework */,
+				9D1D71D5FCD47A37495848E51766B337 /* Foundation.framework */,
+				3C3B810DFD37BF7FAF97E4B82C6A720A /* MobileCoreServices.framework */,
+				7B021FC4D54F0BDA71B343E637CDFAF4 /* QuartzCore.framework */,
+				1E1A6DA0D125DC83D1D260842FA1F684 /* Security.framework */,
+				7C1DE368B1E8689457D6B85EDACCDF2E /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		754284BFACFBA2076698EC8045F02ABE /* Withdraw */ = {
+			isa = PBXGroup;
+			children = (
+				06F3DEB07991DC3B736B55BD8D860FE3 /* JRWithdrawAddressCell.swift */,
+				5FF0C2A4C03171FAFD58983C9D744C51 /* JRWithdrawRequestForm.swift */,
+				49FC7C80554C3E6A07C5746D85DA93EE /* JRWithdrawTextFieldCell.swift */,
+				AA475BE8B607FC6755C57FB6BBFEF56D /* JRWithdrawTypeCell.swift */,
+			);
+			path = Withdraw;
+			sourceTree = "<group>";
+		};
+		782745962CB4C1EB4FFB19595B8E5F02 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				EB89E3D93E743F5B00EE417D92BD58AB /* Alamofire */,
+				EF534E5299EFCDB0C99B79B72DFB96E6 /* AlamofireObjectMapper */,
+				8E7777CD2123A59CD6ACAFD06AE80BD9 /* DropDown */,
+				A7F01AC36538298003028A212A76ACC7 /* ObjectMapper */,
+				F6FC48868D60BEDE03E492FFA3470EB0 /* PageTabController */,
+				03FBAEF797A6198865D9BB88613FBFBF /* RippleButton */,
+				649E6D24AA0A159506E4DCB1C9442FF0 /* SkyFloatingLabelTextField */,
+				4554217451F8B1FBCE2E1D0ADF4D5EB1 /* ZooziOSStatic.framework */,
+			);
+			name = External;
+			path = JackpotRising/External;
+			sourceTree = "<group>";
+		};
+		7C5700D30D628937A61C6FB6AC32256B /* External */ = {
+			isa = PBXGroup;
+			children = (
+				7CC4FA1CDE2555839D01157F76E1A671 /* DropDown */,
+			);
+			name = External;
+			path = JackpotRising/External;
+			sourceTree = "<group>";
+		};
+		7CC4FA1CDE2555839D01157F76E1A671 /* DropDown */ = {
+			isa = PBXGroup;
+			children = (
+				C90EF304A30DDD734D30BEECB85F83C8 /* resources */,
+			);
+			path = DropDown;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				7EA40AD48365711D719AA041C9CE4EC4 /* Development Pods */,
+				F4CDA5FA9197A41E0081E84F932906EB /* Frameworks */,
+				D4DDFB65B5D28F27F5D268AA41BCF5FE /* Products */,
+				B6040ECADB50EFCC68935141667BD2D2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7EA40AD48365711D719AA041C9CE4EC4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69971A4F28808224BE59710FB912A077 /* JackpotRising */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		80AF19030913FB3ED00D619F3493A24C /* TournamentDetails */ = {
+			isa = PBXGroup;
+			children = (
+				E6CBD7EC7EAEDF883B3AA4E0216DE0D0 /* JRTournamentDetailTableViewCell.swift */,
+				08BCD4E8EA5D84459E5F29CE60714D87 /* JRTournamentDetailViewController.swift */,
+			);
+			path = TournamentDetails;
+			sourceTree = "<group>";
+		};
+		871D2AECB51D9C64350227FF55ACA09D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				66332FA8BA4A4DCB08B1CB86C5F1C123 /* API */,
+				1AAD16940459A5F103B3BFF2042130C6 /* DataMappers */,
+				62596B50360CB09C0B89B48BA3A5C9C9 /* Helpers */,
+			);
+			name = Models;
+			path = JackpotRising/Models;
+			sourceTree = "<group>";
+		};
+		8BDC9FFB992170D8E1F468F6328F3B60 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				D6249D281AF6E855DC25ED25D24D337A /* DropDown.swift */,
+				E09332AF221DAB712A8CE67CE560F83A /* DropDown+Appearance.swift */,
+				2B8B8223E7D3215729EA8C2AEDF6507F /* DropDownCell.swift */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		8DAA89B078AC231F24559EC9C09071AD /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				E6B099B4BD8322BB65362AF4F6BC78BA /* JRAlertsViewController.swift */,
+				F9DBCD07859D17A2C90CF3BB2C16F90F /* JRAlertTableViewCell.swift */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
+		8E7777CD2123A59CD6ACAFD06AE80BD9 /* DropDown */ = {
+			isa = PBXGroup;
+			children = (
+				41FFC000599DE551A6403660777D0F51 /* helpers */,
+				8BDC9FFB992170D8E1F468F6328F3B60 /* src */,
+			);
+			path = DropDown;
+			sourceTree = "<group>";
+		};
+		95A2EF88AC2426C5347D8231EB4989F7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C277BC6384D62973B1E4A2948B7FD28A /* JRMain.storyboard */,
+			);
+			name = Views;
+			path = JackpotRising/Views;
+			sourceTree = "<group>";
+		};
+		981127253B8E54196D406870B8221DBE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2866A9020A3B9CE09590DE4FACF14A3C /* MenuItemView.swift */,
+				91C25730710342DAE1BBAA5C72BE3FCD /* MenuView.swift */,
+				85E1F5FD2913A716AB6A5F38C81F3E7D /* PagingMenuController.swift */,
+				358391F34B8E13CB312F5759EFD3BED0 /* PagingViewController.swift */,
+				1DFAACD39687FCC6896214659CA42A79 /* Protocols */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A7F01AC36538298003028A212A76ACC7 /* ObjectMapper */ = {
+			isa = PBXGroup;
+			children = (
+				2BBD1CE16CCFF526EEC9CE30F6D41B38 /* ObjectMapper */,
+			);
+			path = ObjectMapper;
+			sourceTree = "<group>";
+		};
+		A957BC65BDC537C7CBA30BF10126E4DC /* UIContainers */ = {
+			isa = PBXGroup;
+			children = (
+				B4B83DB1EA0031CC7A293FF078C5AE9D /* JRAlertsPageViewController.swift */,
+				8B2F488CA081B062F4C5FD680C787CA1 /* JRBottomBarViewController.swift */,
+				B67BACCE395C1D0BA4A980E0FCCEAA38 /* JRContentViewController.swift */,
+				DDD68E151E87262EBB2949F3EC4E447E /* JRLeaderboardPageController.swift */,
+				CC4D1EA49DAB5BD4CECFA33EC07E9B79 /* JRLoginPageViewController.swift */,
+				1DC7567C0CC9A9D327202E39E40F4E85 /* JRProfileOtherPageController.swift */,
+				85CEC3C49019DFD4DA4F7382AF1147B2 /* JRRootViewController.swift */,
+				74CFE8CF26386F1CA9B0D43664DCBC4E /* JRSettingsPageController.swift */,
+				D94E5F58A38EC6293E5BC8809294FF82 /* JRSocialPageViewController.swift */,
+				37DEE02B23DCF3833AD3B2207081B63E /* JRTopBarViewController.swift */,
+				75A0085D15406A8C37C7FC77B47EEF0F /* JRTournamentsPageViewController.swift */,
+			);
+			path = UIContainers;
+			sourceTree = "<group>";
+		};
+		B6040ECADB50EFCC68935141667BD2D2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC37BD02F502EE6CDAA61A8B62A4BBC4 /* Pods-SwiftDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B6E1176B3B6565B7AE84EF8FE1698D72 /* Webkit */ = {
+			isa = PBXGroup;
+			children = (
+				8511E1A981C3CFB102CF3A288173E34B /* JRWebkitController.swift */,
+			);
+			path = Webkit;
+			sourceTree = "<group>";
+		};
+		B6F9BDDE02E1C8CC334DC4777420DF8B /* PopupTextfield */ = {
+			isa = PBXGroup;
+			children = (
+				6F92467EF25BFD0BD8CAE5376A13A1B2 /* JRPopupTextField.swift */,
+			);
+			path = PopupTextfield;
+			sourceTree = "<group>";
+		};
+		B96F144B320C8AAA5FB6194146A5A5C4 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				62BA9F285ACD5C38809F6C47C5D78C08 /* ZoozAddPaymentMethodRequest.h */,
+				05E121ED485DAAB20C478022293BB556 /* ZoozAddPaymentMethodResponse.h */,
+				3143D65D2D573653578F01A531940A7E /* ZoozAddress.h */,
+				762D82C81A3CF7CBB03D5B8FC868464F /* ZoozController.h */,
+				B8D5E8B85D259E8485B0C988DDBF8162 /* ZoozEcomm.h */,
+				97D71E11787CA06603A15D62A94FBE1A /* ZooZEcommDevice.h */,
+				B313698403622013C88C6EA5E8946D73 /* ZoozEcommResponseObject.h */,
+				3527091988542B0504E13A19786B30B7 /* ZoozPaymentMethod.h */,
+				4BBE5761768AD5181C2DDD692DF0C361 /* ZoozPaymentMethodDetails.h */,
+				355010B65D17BB32BAD34384E59DDF59 /* ZoozPhone.h */,
+				37411BBFB0DAE4098CC487A131C57209 /* ZoozRemovePaymentMethodRequest.h */,
+				E86D85AD3AC3F31324DF4E7CF44CA761 /* ZoozRemovePaymentMethodResponse.h */,
+				123CB076591FC096A3E0F0C6BE2B5CD9 /* ZoozRequest.h */,
+				9BCF7F1F6B7BC779425FFD46E51C7A00 /* ZoozRisk.h */,
+				8CBD43AA9495444AB37EA2BC64DDC62E /* ZoozRiskResult.h */,
+				CEDC48F809FBBF04E5742B6D1EB058DA /* ZoozServerResponse.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		C64D68FBFB7A342BD90B9B977261E847 /* Tournaments */ = {
+			isa = PBXGroup;
+			children = (
+				BCA053274AAFC9453BD9441B9590EDA3 /* JRTournamentsPageController.swift */,
+				AFBBC998576529475F0CF1CCD8042A2F /* JRTournamentTableViewCell.swift */,
+				0B5042FC6189494F0490E52B65898DC8 /* JRTournamentViewController.swift */,
+				637ED8A952CDA19039531BE4BB9347C4 /* PlayerCreated */,
+			);
+			path = Tournaments;
+			sourceTree = "<group>";
+		};
+		C8A4C383E14A78FC5097AC9C2A18FA02 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				EB2936CDE7C0D864B2EF32E63A9A5AAE /* FromJSON.swift */,
+				013F4F5E5D0BCBC3C4DB1074C7F8264C /* Map.swift */,
+				A0BC8626A81FB37B8263B7DB3A8C2D38 /* Mappable.swift */,
+				6723FC67258B8C91CE2F54D6F4696F8F /* Mapper.swift */,
+				3389BE633E71A7D3D9971893E4AD396E /* Operators.swift */,
+				1B7ADB26756DC74CD40D78962964548D /* ToJSON.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C90EF304A30DDD734D30BEECB85F83C8 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				E8B6B42BED7625A1F49216222B9C00A8 /* DropDownCell.xib */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		CA3859934152AEAC1EC42BC3077D75EC /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				46B8EC364061D3EC6EE68EAEC96326F5 /* JRAddNewCardViewController.swift */,
+				9917CD523A69A278105E0F6DFB897D62 /* JRCardDetailsViewController.swift */,
+				4D7FE5C81B0AD300C96EF4F3297CF710 /* JRDeleteCardViewController.swift */,
+				660C7160C70F764E995742CDC0B0DF10 /* JRProfileViewController.swift */,
+				080A499CE114675FF6A78C485F387A72 /* JRSelectCardsCell.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		D28A542A9D37FA34103118724F2D4996 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7568661D90B3BB635D73C726A2618E10 /* Info.plist */,
+				04A69E83AC639ECC2E1DBB4F6151D165 /* JackpotRising.modulemap */,
+				24FC0AB66090CD1E5F17DF23D255DB25 /* JackpotRising.xcconfig */,
+				E6AB7A6D21CC8D73D4FDF0FA868E9F31 /* JackpotRising-dummy.m */,
+				C23BE4C54D21990F7F2CB032CFF5C965 /* JackpotRising-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "SwiftExample/Pods/Target Support Files/JackpotRising";
+			sourceTree = "<group>";
+		};
+		D4DDFB65B5D28F27F5D268AA41BCF5FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				094C09FA1686268989F3C18F29506C1F /* JackpotRising.framework */,
+				5FAADB79BA850568600265E86669647D /* Pods_SwiftDemo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D684AA54AAF18BD03AA6938424B73310 /* A */ = {
+			isa = PBXGroup;
+			children = (
+				B96F144B320C8AAA5FB6194146A5A5C4 /* Headers */,
+			);
+			path = A;
+			sourceTree = "<group>";
+		};
+		D851465FC234263130958902D22B9496 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8DAA89B078AC231F24559EC9C09071AD /* Alerts */,
+				118DB79C93143656C71E8808638296F7 /* Core */,
+				3EC66A36CBCF0505029CD76F9604CA7E /* Leaderboard */,
+				3EA6BC1CFACC4DEC0EB3B73F856B7AA2 /* Login */,
+				B6F9BDDE02E1C8CC334DC4777420DF8B /* PopupTextfield */,
+				CA3859934152AEAC1EC42BC3077D75EC /* Profile */,
+				E03B68DE3BC73BF472F0DA569A8BDAEA /* ProfileOther */,
+				EB615E9E3AC4A7736BB94E3432A919AE /* Register */,
+				E6D6B06BEC2C231541D120CF71522DCD /* Settings */,
+				46039AA55BC96C5F40BF287FF128F255 /* Social */,
+				80AF19030913FB3ED00D619F3493A24C /* TournamentDetails */,
+				25C785490A25679FFCC76759090AA1B5 /* TournamentRules */,
+				C64D68FBFB7A342BD90B9B977261E847 /* Tournaments */,
+				A957BC65BDC537C7CBA30BF10126E4DC /* UIContainers */,
+				B6E1176B3B6565B7AE84EF8FE1698D72 /* Webkit */,
+				754284BFACFBA2076698EC8045F02ABE /* Withdraw */,
+			);
+			name = Controllers;
+			path = JackpotRising/Controllers;
+			sourceTree = "<group>";
+		};
+		DC37BD02F502EE6CDAA61A8B62A4BBC4 /* Pods-SwiftDemo */ = {
+			isa = PBXGroup;
+			children = (
+				62DFBCE064C091C562C96DA74B0B8792 /* Info.plist */,
+				9562F0D7A30DAF34FCD096C6FB68ECD6 /* Pods-SwiftDemo.modulemap */,
+				84B97F6D8B2F4F3605E32BCBDA0CC479 /* Pods-SwiftDemo-acknowledgements.markdown */,
+				8E2895854B82E71C32D2903CA1FB8290 /* Pods-SwiftDemo-acknowledgements.plist */,
+				D1F1C8EE9443F5B647D419DBCE89A23D /* Pods-SwiftDemo-dummy.m */,
+				D322BC48807AF363862970C6DEF3C744 /* Pods-SwiftDemo-frameworks.sh */,
+				B70A5175AB12264025405ACD8AE138A6 /* Pods-SwiftDemo-resources.sh */,
+				5EB9C95E31617974F49D8DDE8F6F7182 /* Pods-SwiftDemo-umbrella.h */,
+				09617F0B809CF6EE98AAB263A6F51EDB /* Pods-SwiftDemo.debug.xcconfig */,
+				2CCF257426D4AA67C51CE14AC2409AF9 /* Pods-SwiftDemo.release.xcconfig */,
+			);
+			name = "Pods-SwiftDemo";
+			path = "Target Support Files/Pods-SwiftDemo";
+			sourceTree = "<group>";
+		};
+		DE0A1C65260B1535F273FCF2043D29B2 /* AlamofireObjectMapper */ = {
+			isa = PBXGroup;
+			children = (
+				72907061E260DF7D3A55A01FD2212901 /* AlamofireObjectMapper.swift */,
+			);
+			path = AlamofireObjectMapper;
+			sourceTree = "<group>";
+		};
+		E03B68DE3BC73BF472F0DA569A8BDAEA /* ProfileOther */ = {
+			isa = PBXGroup;
+			children = (
+				8CF468EF1A8C4E49A0A40FDF60E027D3 /* JRProfileOtherViewController.swift */,
+			);
+			path = ProfileOther;
+			sourceTree = "<group>";
+		};
+		E3BB709DAC465B5F43B16BC2EC3C7CDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66D389D4CDA7560E4E780B14AC597B0D /* ZooziOSStatic.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6D6B06BEC2C231541D120CF71522DCD /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				F835B56911456E2D1678022CE7660DFF /* JRAccountSettingsViewController.swift */,
+				9475638746473406CFBFC5F002B4FC77 /* JRGeneralSettingsViewController.swift */,
+				312824BA796FA4786392991297811E54 /* JRSettingsButtonCell.swift */,
+				888DAF3B6C70873E2F0E6E10A75784B4 /* JRSettingsDropDownCell.swift */,
+				6AA5DF8D33729E23A3A52129FD1A6DCE /* JRSettingsSwitchCell.swift */,
+				2A8FEA8354C6BB1AB927DF435147A453 /* JRSettingsTextFieldCell.swift */,
+				4465ECF8214C8C1AEF493A5C5EF87817 /* JRSettingsTextViewCell.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		EB615E9E3AC4A7736BB94E3432A919AE /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				7B3B0A1383B8C02412904F7B1BBF6B60 /* JRRegisterViewController.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		EB89E3D93E743F5B00EE417D92BD58AB /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				14F7A54304F8B7F6B6774AE1D96FC190 /* Source */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		EF534E5299EFCDB0C99B79B72DFB96E6 /* AlamofireObjectMapper */ = {
+			isa = PBXGroup;
+			children = (
+				DE0A1C65260B1535F273FCF2043D29B2 /* AlamofireObjectMapper */,
+			);
+			path = AlamofireObjectMapper;
+			sourceTree = "<group>";
+		};
+		F4CDA5FA9197A41E0081E84F932906EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D838F7A749EFA8BC16B828BCD20A0AC /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6FC48868D60BEDE03E492FFA3470EB0 /* PageTabController */ = {
+			isa = PBXGroup;
+			children = (
+				981127253B8E54196D406870B8221DBE /* Classes */,
+			);
+			path = PageTabController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		80FFB22207047937DBA745E090386D2D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5670BF67BCD6C3CB79F73138C953D8A /* JackpotRising.h in Headers */,
+				2F76CADE474D46B33C1A66284D04D3D3 /* NSString+JackpotRising.h in Headers */,
+				9FF984E627892B1485E8540B92D8942F /* ZoozAddPaymentMethodRequest.h in Headers */,
+				6A165AC17AC9FFCC231BBBCECD529946 /* ZoozAddPaymentMethodResponse.h in Headers */,
+				76FE103AFD96D2D1E894F498B9F93E10 /* ZoozAddress.h in Headers */,
+				C94C6A335D1F21ECB380AB46E1DA999B /* ZoozController.h in Headers */,
+				D6FAD189CB1DD7951550C528ED9DEAA0 /* ZoozEcomm.h in Headers */,
+				38FACC8E987BA89800620AB2BD4FCC53 /* ZooZEcommDevice.h in Headers */,
+				62913023016E394AD6A60E1A47F251C2 /* ZoozEcommResponseObject.h in Headers */,
+				9AF6F9C1060E8C25989B7B613B689218 /* ZoozPaymentMethod.h in Headers */,
+				1B5352A44215B2E1AD0F20480E1CFF10 /* ZoozPaymentMethodDetails.h in Headers */,
+				90FD576F086B1CB94D57EF8F72BA2EE0 /* ZoozPhone.h in Headers */,
+				F3FECC4965EC6A72828D1C6EA97C9B45 /* ZoozRemovePaymentMethodRequest.h in Headers */,
+				F167A7C2F203AF898095274E9452CADF /* ZoozRemovePaymentMethodResponse.h in Headers */,
+				7BDB571E95AC384FF86047B811259F47 /* ZoozRequest.h in Headers */,
+				622F025563B9F0538FA0493A64BA03F5 /* ZoozRisk.h in Headers */,
+				BD67ED3C35419C0B2B803A503F936660 /* ZoozRiskResult.h in Headers */,
+				33D3F1B39E68EFFAAA9A159F2027151B /* ZoozSDKWrapper.h in Headers */,
+				A2401AF91D63D7F07FEF58BC1683E02F /* ZoozServerResponse.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCBDE99AF5603814174BA8ABF121392D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF75B9A620824F3A19659EA31F507AF9 /* Pods-SwiftDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		27CCB3A2284577B6B48A736E5F7AD498 /* JackpotRising */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C630C9C600E2C63F951D4F0F088A643E /* Build configuration list for PBXNativeTarget "JackpotRising" */;
+			buildPhases = (
+				9F37FFB4CA2BA93606107D9511620C2B /* Sources */,
+				51B080D4AFAF6C8150EC0B5C3FABCF4D /* Frameworks */,
+				80FFB22207047937DBA745E090386D2D /* Headers */,
+				4707EDD51A241CA31338972DC82D7854 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JackpotRising;
+			productName = JackpotRising;
+			productReference = 094C09FA1686268989F3C18F29506C1F /* JackpotRising.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EB097137B101AFD959A6351561E700CB /* Pods-SwiftDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6777F35B772D32C67EE4B74DAEBE561 /* Build configuration list for PBXNativeTarget "Pods-SwiftDemo" */;
+			buildPhases = (
+				738E94CB393D77536A45472A91A02DAF /* Sources */,
+				DA3D202B30D390578DDD13394ADDEA6E /* Frameworks */,
+				CCBDE99AF5603814174BA8ABF121392D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				798C0D6D7CFF1FE846DB88C28ABBE4D4 /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftDemo";
+			productName = "Pods-SwiftDemo";
+			productReference = 5FAADB79BA850568600265E86669647D /* Pods_SwiftDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D4DDFB65B5D28F27F5D268AA41BCF5FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27CCB3A2284577B6B48A736E5F7AD498 /* JackpotRising */,
+				EB097137B101AFD959A6351561E700CB /* Pods-SwiftDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4707EDD51A241CA31338972DC82D7854 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0999D618B77B27B5567A0DDEF08D73F6 /* Assets.xcassets in Resources */,
+				4E2DF61A40FF20149F6FE37FEBB87510 /* DropDownCell.xib in Resources */,
+				BDB013B0EDB36EF360F962353FFCE0AF /* JRMain.storyboard in Resources */,
+				B92D5C7C96439CBD8E113DBEED7305E4 /* Oswald-Bold.ttf in Resources */,
+				66801AB35E2F0EE6D9637646923FECEF /* Oswald-Light.ttf in Resources */,
+				CC1D935593B86859C01405E6255243AC /* Oswald-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		738E94CB393D77536A45472A91A02DAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F636DE0CD1BC63190C915820AC7B560 /* Pods-SwiftDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F37FFB4CA2BA93606107D9511620C2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E89224DEF7DDC19EFB3BBD191D1BDFC /* AFError.swift in Sources */,
+				9E0372B0333B9465160B5C6FB2231AF8 /* Alamofire.swift in Sources */,
+				37D5FF1BF3DFD8F02E96756CC344661F /* AlamofireObjectMapper.swift in Sources */,
+				0E8EA1B3E742DCCAD2122B5B0934E4E7 /* CustomDateFormatTransform.swift in Sources */,
+				86CBD148A8FCE29A06D748C4221DB387 /* DataTransform.swift in Sources */,
+				F04F366B815870B97E0A3FBFC4967798 /* DateFormatterTransform.swift in Sources */,
+				7474574FE8BE8C0FDB3C75A662E67F87 /* DateTransform.swift in Sources */,
+				28565AE6748E0E22802F1FAD56934CDF /* DictionaryTransform.swift in Sources */,
+				3FC96E8E107F84EE05238D1FD3056096 /* DispatchQueue+Alamofire.swift in Sources */,
+				7F014DEC8EC0DEB78CC4C1C257BB9132 /* DPDConstants.swift in Sources */,
+				13B587EE681B3FEFFB945D617F10F558 /* DPDKeyboardListener.swift in Sources */,
+				0EFF8D0AB86126BE8A1C1DB52BCA8C3C /* DPDUIView+Extension.swift in Sources */,
+				64539616C8740981AAA8A0E0E10CC4A1 /* DropDown+Appearance.swift in Sources */,
+				2787FC5C263EAD4B1249A6EC32964D14 /* DropDown.swift in Sources */,
+				0BBBAF5E124641BE34D9AAE4B74E25EF /* DropDownCell.swift in Sources */,
+				CC716720A57D85154CF2A7C3B10E4853 /* EnumTransform.swift in Sources */,
+				A1783267C44F8514DEF580625CBB8FBF /* FromJSON.swift in Sources */,
+				02D07DA926465BEE4556CAB5E854C4E8 /* ISO8601DateTransform.swift in Sources */,
+				085BEBCADB00AF6FF50D4C5E093F3B70 /* JackpotRising-dummy.m in Sources */,
+				023275749B248C3E423E2BE6CCC5295D /* JackpotRising.swift in Sources */,
+				6D22B9B9B4EFA77E4BF7634E14783B28 /* JRAccountSettingsModel.swift in Sources */,
+				E747E9FC44F4390BF1B3D72DC85A7DE4 /* JRAccountSettingsViewController.swift in Sources */,
+				686B23633CFEC6081AA0F6EE2F9088DC /* JRActivityIndicator.swift in Sources */,
+				C2E06C32B78D2582D82DE719F7A22BEA /* JRAddNewCardViewController.swift in Sources */,
+				97D68C9037F03A1FDFA2EDFA20482A31 /* JRAlertsPageViewController.swift in Sources */,
+				50B96AD85ECA42615F400256346D0E41 /* JRAlertsViewController.swift in Sources */,
+				56F27EF3E82A46FA0CBDDB480607B282 /* JRAlertTableViewCell.swift in Sources */,
+				39814858FAE542DCD6FBB1BFF894F3E6 /* JRAllowedStates.swift in Sources */,
+				8B695D14B7419B574B09D3B8CFA67D71 /* JRAPIServices.swift in Sources */,
+				C159B1750D24D6410014EE68B7B3AF8F /* JRAppInfoMapper.swift in Sources */,
+				71C6B5F7EDADE26B9D95EA50662E2A5E /* JRAppVersionMapper.swift in Sources */,
+				1D8C6CF0B44D6C60E948415894B9467A /* JRAsyncImageView.swift in Sources */,
+				D803B8783FE46581C0E39B25517688B7 /* JRBadgeImage.swift in Sources */,
+				FF7159DDDA27B3664BAF6981C4C6BCC6 /* JRBaseMapper.swift in Sources */,
+				BB1EA7BB2C1695F2FE664A1D1B2CB4FC /* JRBottomBarViewController.swift in Sources */,
+				7C45EA0BB2DAA398348A8EC87F9D7B93 /* JRCardDetailsViewController.swift in Sources */,
+				E9CD479B0EC5FC32B7CD1FB754EE9C95 /* JRCommonTableHeader.swift in Sources */,
+				54CB354EBB19882DCA81DBA45AA598CE /* JRConstants.swift in Sources */,
+				AB2F70BE10937EE45105034BEEEF0F08 /* JRContentViewController.swift in Sources */,
+				9A0CCDF665058F77C04A42AB8D84F929 /* JRContestPlayMapper.swift in Sources */,
+				B7E7B08D781CC4F79485C280F2BECE29 /* JRContestsMapper.swift in Sources */,
+				3B51891C10817C96D2EEDC438C501DD2 /* JRCountriesListMapper.swift in Sources */,
+				B69E0B9E1CA32A1CB3098D49567D96A7 /* JRCreditcardFormatter.swift in Sources */,
+				25F5B784CDFAE3B04FBDCD4D9CF62A68 /* JRCustomClasses.swift in Sources */,
+				C2441A12F8E73ABA7885B279B811916E /* JRDeleteCardViewController.swift in Sources */,
+				D8D9184E48A0A049913F2FA1E37659BE /* JRError.swift in Sources */,
+				5BFA2086C8720B66EA773FB7B8BD2F94 /* JRExtensions.swift in Sources */,
+				5A00C7B648F9A1ECDC863127E6FD6179 /* JRFriendsTableViewCell.swift in Sources */,
+				861A0375A67A394F72199DC73A9FB866 /* JRFriendsViewController.swift in Sources */,
+				5FD9FDC7D7BFCBBC2EB809B86B94A890 /* JRGeneralSettingsModel.swift in Sources */,
+				6BE041B2DC356368EB595AA2B8984F4C /* JRGeneralSettingsViewController.swift in Sources */,
+				7517B53F68B1B82D9C0C9999C6034030 /* JRGraphView.swift in Sources */,
+				E5293B0C2219926B5C332548B812F254 /* JRInitializer.swift in Sources */,
+				827E4B8A1BCF78AF8DCF8D77D094FA11 /* JRLeaderboardListController.swift in Sources */,
+				8B4E5E656A16FE1E243D24AEC364CBAE /* JRLeaderBoardMapper.swift in Sources */,
+				CBC3EA57BAF27D66513D6FBF42BBF1D0 /* JRLeaderboardPageController.swift in Sources */,
+				3B966AF322F3B44870BFC791B5D347F0 /* JRLeaderboardTableViewCell.swift in Sources */,
+				1B3F7EF4464BEBC9385081E259DFCA22 /* JRLeaderboardViewController.swift in Sources */,
+				AB5BF5298AFCDD12A2CD659B0CF74E02 /* JRLocationManager.swift in Sources */,
+				1DCFED866BB8ABDA511043E99AB54A61 /* JRLoginPageViewController.swift in Sources */,
+				1724E8D5DCF371ABB7C12A8F1E2249A6 /* JRLoginViewController.swift in Sources */,
+				7C221360DB9E6A97EC023C21359C019E /* JRMapQuestMapper.swift in Sources */,
+				2D950830843C905276CD0832B4A16086 /* JRMoment.swift in Sources */,
+				37C4EB3E1E72D968CBB8D5366EE9066A /* JRMonthYearPickerView.swift in Sources */,
+				BA60E112BF256CF0E2F713CF5FFCA3DD /* JROAuthMapper.swift in Sources */,
+				E6ECF197ADEB3812D11646EEF7C29574 /* JROverlayView.swift in Sources */,
+				CE2664861FCA339CF07C1885746A5033 /* JRPaymentManager.swift in Sources */,
+				13A235D1CA88D9D7E547788C3CF64491 /* JRPaymentMappers.swift in Sources */,
+				D68A2B46AA3C5987832A708B1DCE63E3 /* JRPlayerCreatedViewController.swift in Sources */,
+				8643BBBF906B2875A950BF0F01A2D714 /* JRPopupTextField.swift in Sources */,
+				A95B6B9A97E503F9239CC7320A8223A0 /* JRProfileOtherPageController.swift in Sources */,
+				E7E2930CCE7B44B82BC752CCB8D3148F /* JRProfileOtherViewController.swift in Sources */,
+				723E9FD818CF717428F8CD3248A5B166 /* JRProfileViewController.swift in Sources */,
+				EEE0EDB4788200D0EA2EFB92B8892C23 /* JRRegisterViewController.swift in Sources */,
+				73F7C7213BD3873C6468F46955434E6F /* JRRegistrationMapper.swift in Sources */,
+				C59A32D31977F54E622C8B48F3D71596 /* JRRootViewController.swift in Sources */,
+				4427A0CD47E2C821A26444C8DB7DD780 /* JRScoreSubmitManager.swift in Sources */,
+				4DE9CA5A745F5CAD7596BC5A50019872 /* JRSegue.swift in Sources */,
+				B71106F952478C08449F10FD53ABBE7C /* JRSelectCardsCell.swift in Sources */,
+				B320F94088627720FDB800D66450973E /* JRSettingsButtonCell.swift in Sources */,
+				0B3CAAAE712690093E1DC75835954603 /* JRSettingsDropDownCell.swift in Sources */,
+				4DAEA6F947E61BE2977CF258A6C21065 /* JRSettingsPageController.swift in Sources */,
+				1056775008717E73D49D2D526A9DB069 /* JRSettingsSwitchCell.swift in Sources */,
+				B98445D8E3EEB5E103723ADA014F4144 /* JRSettingsTextFieldCell.swift in Sources */,
+				C8070A437A286095154D0C5703339CD8 /* JRSettingsTextViewCell.swift in Sources */,
+				0DFF4215E3C4A7B46A4D91887C40AAA6 /* JRSharedData.swift in Sources */,
+				C6ABBF58519AEB8BE5C8D1C5959A4B97 /* JRSocialLoginManager.swift in Sources */,
+				9F189AAA23D74397DB0CBCA4C4934351 /* JRSocialPageViewController.swift in Sources */,
+				AFA387BE89B19A1716A167F7CBC28120 /* JRThread.swift in Sources */,
+				7B82C30324A9D0C96081E9E68F5C216B /* JRTopBarViewController.swift in Sources */,
+				9F03C41B6985A1A525D6A19818BAE341 /* JRTournamentDetailTableViewCell.swift in Sources */,
+				984EF5E8AB9BCF8E950CC411E871468B /* JRTournamentDetailViewController.swift in Sources */,
+				FA958EC17ECE92A52955869DEFD69D72 /* JRTournamentRulesCell.swift in Sources */,
+				AF095DEC1935521A98F0EBF519CDE817 /* JRTournamentRulesViewController.swift in Sources */,
+				4869A7CF97D28B3EFC91D5B2E5331533 /* JRTournamentsPageController.swift in Sources */,
+				DA267573AE9332516B846693C108639E /* JRTournamentsPageViewController.swift in Sources */,
+				49464AF2ABD3285CD8E1F3A989374468 /* JRTournamentTableViewCell.swift in Sources */,
+				1076D4474FAD39C4BB5DFFEBC2E363DF /* JRTournamentViewController.swift in Sources */,
+				CBE79C1F57F3441571E50E6916643A87 /* JRViewControllerBase.swift in Sources */,
+				EDAC2350CB79823863679F3AFDAD40F2 /* JRWebkitController.swift in Sources */,
+				4A2B5173ABCAB61FAEE3DF3F29F1586D /* JRWithdrawAddressCell.swift in Sources */,
+				3D4B4B5E96FD44FDCD82AB668885EFC0 /* JRWithdrawRequestForm.swift in Sources */,
+				24D359D0C6BD9B9AD58388940E82295C /* JRWithdrawTextFieldCell.swift in Sources */,
+				9AA94B2C5AB5621B7609759CCE18491B /* JRWithdrawTypeCell.swift in Sources */,
+				0B06CAAABB5D4A299E70CD52D1EF4458 /* Map.swift in Sources */,
+				46262C5E169088329A7C27432F924A31 /* Mappable.swift in Sources */,
+				21B47A4B95EA2C12BAF10DF3C4687ED3 /* Mapper.swift in Sources */,
+				BBFEC9B207E1455D293E33A70DC4E09B /* MenuItemView.swift in Sources */,
+				4D5E4EFDA8E66223A8E63416ABBE8AB9 /* MenuItemViewCustomizable.swift in Sources */,
+				CE4802A7A3A4BA0D17AC63EFF32BC6D6 /* MenuView.swift in Sources */,
+				8C5E8BF807CC8BB6C99F2767AED2C6C9 /* MenuViewCustomizable.swift in Sources */,
+				0419E19D6B7C791ECFBB0D19B956C527 /* MultipartFormData.swift in Sources */,
+				DE529CF4887C0C06DBC6B61C68D34540 /* NetworkReachabilityManager.swift in Sources */,
+				48DA4EF02AE18F55BDB46C2F3365BAE9 /* Notifications.swift in Sources */,
+				A9F953BC42AE17DAF2A8F7FA5705F423 /* NSDecimalNumberTransform.swift in Sources */,
+				F0AF5DB327EB9B1D598CB9015F514F27 /* NSString+JackpotRising.m in Sources */,
+				7ECCE01C842F4E942E185A411AE70D06 /* Operators.swift in Sources */,
+				3214C32B594D8EACC10BD64DE3E12D5C /* Pagable.swift in Sources */,
+				BB7548452D321FB2F54B37B42B43F216 /* PagingMenuController.swift in Sources */,
+				77FC3DC97C56F68DE06A1D4A29F4AC49 /* PagingMenuControllerCustomizable.swift in Sources */,
+				A3148B668B469FAAEC973E3EA2BDD06A /* PagingViewController.swift in Sources */,
+				602C24C5F1A0631B85C97627712C1994 /* ParameterEncoding.swift in Sources */,
+				71AEDB4425B8B32B7BE3ABCCF98F1BD4 /* Request.swift in Sources */,
+				5E7DA534B92C8E89AD3DAF7DFD7E6707 /* Response.swift in Sources */,
+				CD819AD7F0919A5656CE12A3D0C77D13 /* ResponseSerialization.swift in Sources */,
+				5C9152DB34BCE9534A70873EF593BB75 /* Result.swift in Sources */,
+				62718745564B1C0185D8A2C9CF2D7AC7 /* ServerTrustPolicy.swift in Sources */,
+				F08268C5329B149097E20EB36BBCD403 /* SessionDelegate.swift in Sources */,
+				D6E6EF093CA6AAE515A689AF17252B55 /* SessionManager.swift in Sources */,
+				345CA53D292FBB8D82D4EBE3912A0ADF /* SkyFloatingLabelTextField.swift in Sources */,
+				AB1DFAF9DA8C765C95E5669B84804B97 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */,
+				F0E0E326977ABC239ABC38465D24B8C3 /* String+SwiftLuhn.swift in Sources */,
+				12A994627A6E72B47BE1430F1C0088E9 /* SwiftLuhn.swift in Sources */,
+				D474425C4C60B1A5CD09C9F7AB1F3B04 /* TaskDelegate.swift in Sources */,
+				FF32FFEF8FA30A63DFF5D51F35943B0E /* Timeline.swift in Sources */,
+				F596B938DEDB672A68E3B2CB5EDA3D98 /* ToJSON.swift in Sources */,
+				D23D056EED66C7767C2B77E6C65E47D9 /* TransformOf.swift in Sources */,
+				F210549C1B05CFC20032AEC8C588472B /* TransformType.swift in Sources */,
+				8E75DEE9EEBCB039D027BCD6783EB2A8 /* UITextField+fixCaretPosition.swift in Sources */,
+				8FACBECAD884FCEBDA113AA46265215E /* URLTransform.swift in Sources */,
+				49F6A29DDD9FE6DF0C658565EC56F2A4 /* Validation.swift in Sources */,
+				F83B27C945DF1B1108F506416B4367EB /* ZFRippleButton.swift in Sources */,
+				54789B89868E70DD94EA0EF016BE71BF /* ZoozSDKWrapper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		798C0D6D7CFF1FE846DB88C28ABBE4D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JackpotRising;
+			target = 27CCB3A2284577B6B48A736E5F7AD498 /* JackpotRising */;
+			targetProxy = BCEB22A68AD38092A05124E464D8D4BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1C76B2DABA74DDBF812900FCA1BC4450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CCF257426D4AA67C51CE14AC2409AF9 /* Pods-SwiftDemo.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftDemo/Pods-SwiftDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5827AACE7476633BDF6D06D130253EA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09617F0B809CF6EE98AAB263A6F51EDB /* Pods-SwiftDemo.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftDemo/Pods-SwiftDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwiftDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6F9224530522DD3C735EC96CF142642E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7DE93A28C71D2AF23F4CD539FF8D8689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24FC0AB66090CD1E5F17DF23D255DB25 /* JackpotRising.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/JackpotRising/JackpotRising-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JackpotRising/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JackpotRising/JackpotRising.modulemap";
+				PRODUCT_NAME = JackpotRising;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B57951D085A1B98A97F8A1062A5E5C5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D935514AB9DF7652EDF4877681C20BB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24FC0AB66090CD1E5F17DF23D255DB25 /* JackpotRising.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/JackpotRising/JackpotRising-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JackpotRising/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JackpotRising/JackpotRising.modulemap";
+				PRODUCT_NAME = JackpotRising;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57951D085A1B98A97F8A1062A5E5C5B /* Debug */,
+				6F9224530522DD3C735EC96CF142642E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C630C9C600E2C63F951D4F0F088A643E /* Build configuration list for PBXNativeTarget "JackpotRising" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D935514AB9DF7652EDF4877681C20BB1 /* Debug */,
+				7DE93A28C71D2AF23F4CD539FF8D8689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6777F35B772D32C67EE4B74DAEBE561 /* Build configuration list for PBXNativeTarget "Pods-SwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5827AACE7476633BDF6D06D130253EA4 /* Debug */,
+				1C76B2DABA74DDBF812900FCA1BC4450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="JR_Swift_Demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="001a-badge-custom.png" translatesAutoresizingMaskIntoConstraints="NO" id="AGg-iu-TBM">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F16-UU-SWx">
+                                <rect key="frame" x="154" y="137" width="68" height="27"/>
+                                <color key="backgroundColor" red="1" green="0.65028606440000003" blue="0.6811038868" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="27" id="FpU-7h-uTA"/>
+                                </constraints>
+                                <state key="normal" title="Start SDK">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="startSDKAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NJR-a2-ENg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9gA-wo-3Jh">
+                                <rect key="frame" x="141.5" y="365" width="92" height="29"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.031326614119999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="kJ4-ba-HjW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                <state key="normal" title="Submit Score">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="submitScore:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ycr-AG-wal"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="enter score" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gtt-at-EqS">
+                                <rect key="frame" x="140.5" y="319" width="94.5" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="kfE-bT-R6h"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="numbersAndPunctuation"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bga-uO-lBl">
+                                <rect key="frame" x="141.5" y="468" width="92" height="29"/>
+                                <color key="backgroundColor" red="0.98976286517907774" green="1" blue="0.14672962030860193" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Ad Watched">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.87" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="adWatched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2i1-Hz-I6g"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gtt-at-EqS" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="19d-EG-3Aw"/>
+                            <constraint firstAttribute="trailing" secondItem="AGg-iu-TBM" secondAttribute="trailing" id="27k-E9-37U"/>
+                            <constraint firstItem="bga-uO-lBl" firstAttribute="top" secondItem="9gA-wo-3Jh" secondAttribute="bottom" constant="74" id="GJN-cv-dji"/>
+                            <constraint firstItem="9gA-wo-3Jh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MIY-uB-NCN"/>
+                            <constraint firstItem="F16-UU-SWx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Obd-wL-mBu"/>
+                            <constraint firstItem="bga-uO-lBl" firstAttribute="width" secondItem="9gA-wo-3Jh" secondAttribute="width" id="QvE-tR-2qj"/>
+                            <constraint firstItem="bga-uO-lBl" firstAttribute="height" secondItem="9gA-wo-3Jh" secondAttribute="height" id="R3o-t9-HMf"/>
+                            <constraint firstItem="AGg-iu-TBM" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="cmL-Dw-ALP"/>
+                            <constraint firstItem="F16-UU-SWx" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="117" id="kHB-Am-Zr6"/>
+                            <constraint firstItem="AGg-iu-TBM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="lPV-sK-GE5"/>
+                            <constraint firstItem="gtt-at-EqS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="n7J-DP-ra8"/>
+                            <constraint firstItem="bga-uO-lBl" firstAttribute="centerX" secondItem="9gA-wo-3Jh" secondAttribute="centerX" id="oVb-6f-rr8"/>
+                            <constraint firstItem="AGg-iu-TBM" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="1:1" id="qjT-zY-uww"/>
+                            <constraint firstItem="9gA-wo-3Jh" firstAttribute="top" secondItem="gtt-at-EqS" secondAttribute="bottom" constant="16" id="yHL-oa-HaO"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="uxTxtScore" destination="gtt-at-EqS" id="gpS-h2-lQO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="226.40000000000001" y="179.46026986506749"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="001a-badge-custom.png" width="414" height="736"/>
+    </resources>
+</document>

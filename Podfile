@@ -5,6 +5,6 @@ platform :ios, '9.0'
 
 target ‘SwiftDemo' do
 
-pod 'JackpotRising'
+pod 'JackpotRising', :path => '../'
 
 end

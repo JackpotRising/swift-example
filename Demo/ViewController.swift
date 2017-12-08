@@ -12,7 +12,7 @@ import AVKit
 import AVFoundation
 
 class ViewController: UIViewController, UITextFieldDelegate, JackpotRisingDelegate {
-
+    
     let playerController = AVPlayerViewController()
     
     deinit {
@@ -23,9 +23,6 @@ class ViewController: UIViewController, UITextFieldDelegate, JackpotRisingDelega
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // Do any additional setup after loading the view, typically from a nib.
-        
         JackpotRising.sharedInstance.initWithClientCredentials("W6OPDPNV6WRI3EWN2QANYSE64R4PA4YOD2XJLFNVHPTFLE6YRM7QLSC2",
                                                                clientSecret: "U64OJTGODKK7SGXTN6QC5XKXZ4YZRM6ZZPZQR2KTIJRV4O5YNNZY3VT5")
         JackpotRising.sharedInstance.delegate = self
@@ -62,11 +59,11 @@ class ViewController: UIViewController, UITextFieldDelegate, JackpotRisingDelega
     
     //SDK delegate
     
-    func contestData(_ data: [String: Any]) {
+    func contestStarted(_ data: [String : Any]) {
         print(data)
     }
     
-    func locationFecthStatus(_ status: Bool) {
+    func fetchLocationStatus(_ status: Bool) {
         print(status)
     }
     
@@ -86,14 +83,14 @@ class ViewController: UIViewController, UITextFieldDelegate, JackpotRisingDelega
         textField.resignFirstResponder()
         return true
     }
-    func playContest(_ adStatus: Bool) {
-        print("play contest \(adStatus)")
-        if adStatus {
-            if let url = NSURL(string: "https://cinelerra-cv.org/footage/MVI_3572.AVI"){
-                playVideo(url: url)
-            }
+    
+    func playAd() {
+        print("play contest ad")
+        if let url = NSURL(string: "https://cinelerra-cv.org/footage/MVI_3572.AVI"){
+            playVideo(url: url)
         }
     }
+    
     func playVideo(url: NSURL){
         let player = AVPlayer(url: url as URL)
         

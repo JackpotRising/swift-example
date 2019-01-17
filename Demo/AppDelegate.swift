@@ -8,15 +8,35 @@
 
 import UIKit
 import JackpotRising
+import UserNotifications
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate,UNUserNotificationCenterDelegate {
 
     var window: UIWindow?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        //JackpotRising.sharedInstance.initOneSignal(withLaunchOptions: launchOptions)
+        //create the notificationCenter
+        if #available(iOS 10.0, *) {
+            let center  = UNUserNotificationCenter.current()
+            center.delegate = self
+            // set the type as sound or badge
+            center.requestAuthorization(options: [.sound,.alert,.badge]) { (granted, error) in
+                // Enable or disable features based on authorization
+                
+            }
+        application.registerForRemoteNotifications()
+        } else {
+            let type: UIUserNotificationType = [UIUserNotificationType.badge, UIUserNotificationType.alert, UIUserNotificationType.sound]
+            let setting = UIUserNotificationSettings(types: type, categories: nil)
+            UIApplication.shared.registerUserNotificationSettings(setting)
+            UIApplication.shared.registerForRemoteNotifications()
+        }
+
+
         return true
     }
 
@@ -42,6 +62,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
     
+    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+        // let chars = UnsafePointer<CChar>((deviceToken as NSData).bytes)
+        var token = ""
+        
+        for i in 0..<deviceToken.count {
+            //token += String(format: "%02.2hhx", arguments: [chars[i]])
+            token = token + String(format: "%02.2hhx", arguments: [deviceToken[i]])
+        }
+        print("push Token: ", token)
+        JackpotRising.sharedInstance.deviceToken = token
+    }
     func application(_ app: UIApplication,
                      open url: URL,
                      options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {

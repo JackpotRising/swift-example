@@ -5,7 +5,7 @@
   },
   "summary": "Jackpot Rising is a patent pending software solution that you can integrate into your games, that enables your users to compete against.",
   "requires_arc": true,
-  "version": "3.3.18",
+  "version": "3.3.36",
   "license": {
     "type": "Apache",
     "file": "LICENSE"
@@ -13,10 +13,11 @@
   "authors": {
     "Nick Wallace": "developer@jackpotrising.com"
   },
+  "swift_version": "4.0",
   "homepage": "https://github.com/JackpotRising",
   "source": {
     "git": "https://prethushpj@bitbucket.org/jackpotrising/ios.git",
-    "tag": "3.3.18"
+    "tag": "3.3.36"
   },
   "frameworks": [
     "UIKit",
@@ -24,7 +25,9 @@
     "MobileCoreServices",
     "QuartzCore",
     "Security",
-    "CoreLocation"
+    "CoreLocation",
+    "CFNetwork",
+    "SystemConfiguration"
   ],
   "source_files": "JackpotRising/**/*.{swift,h,m}",
   "module_map": "JackpotRising/JackpotRising.modulemap",
@@ -35,13 +38,14 @@
   "libraries": "icucore",
   "vendored_frameworks": "JackpotRising/External/ZooziOSStatic.framework",
   "pod_target_xcconfig": {
-    "OTHER_LDFLAGS": "$(inherited) -ObjC",
+    "OTHER_LDFLAGS": "$(inherited) -ObjC -all_load",
     "CLANG_ENABLE_MODULES": "YES",
     "DEFINES_MODULE": "YES",
-    "ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES": "YES"
+    "ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES": "YES",
+    "ENABLE_BITCODE": "NO"
   },
   "user_target_xcconfig": {
-    "OTHER_LDFLAGS": "$(inherited) -ObjC",
+    "OTHER_LDFLAGS": "$(inherited) -ObjC -all_load",
     "CLANG_ENABLE_MODULES": "YES",
     "DEFINES_MODULE": "YES",
     "ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES": "YES"

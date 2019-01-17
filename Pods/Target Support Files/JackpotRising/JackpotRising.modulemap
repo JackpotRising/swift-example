@@ -7,5 +7,7 @@ framework module JackpotRising {
     explicit module Private {
         header "ZoozSDKWrapper.h"
         header "NSString+JackpotRising.h"
+        header "JRMixpanelWrapper.h"
+        header "AnalyticsWrapper.h"
     }
 }

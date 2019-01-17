@@ -7,7 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		065CFF9B136B74B4DF3A47B9 /* Pods_SwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B881278153EEAB520F45C1C7 /* Pods_SwiftDemo.framework */; };
+		11DE77B22036DB690068A45B /* leaderboard.txt in Resources */ = {isa = PBXBuildFile; fileRef = 11DE77B12036D6FD0068A45B /* leaderboard.txt */; };
+		2D169629881506D0D006D6CE /* Pods_SwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A16B7743B951C51B89CC2531 /* Pods_SwiftDemo.framework */; };
+		506C16B02088670F00624369 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506C16AF2088670F00624369 /* CFNetwork.framework */; };
+		506C16B22088671800624369 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506C16B12088671800624369 /* Foundation.framework */; };
+		506C16B42088671F00624369 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 506C16B32088671F00624369 /* libicucore.tbd */; };
+		506C16B52088672600624369 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048DB9881D65DCF300210138 /* Security.framework */; };
+		506C16B72088672E00624369 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506C16B62088672E00624369 /* SystemConfiguration.framework */; };
+		506C16B92088673500624369 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506C16B82088673500624369 /* UIKit.framework */; };
 		50D7C05F1F0F6F49000A0F5B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D7C05E1F0F6F49000A0F5B /* CoreLocation.framework */; };
 		50E2C5FD1F2B1036004BAF32 /* 001a-badge-custom.png in Resources */ = {isa = PBXBuildFile; fileRef = 50E2C5EF1F2B1036004BAF32 /* 001a-badge-custom.png */; };
 		50E2C5FE1F2B1036004BAF32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E2C5F01F2B1036004BAF32 /* AppDelegate.swift */; };
@@ -20,7 +27,13 @@
 
 /* Begin PBXFileReference section */
 		048DB9881D65DCF300210138 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		4565630732996D6167F6D314 /* Pods-SwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftDemo/Pods-SwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
+		11711202203D9C6B00BCFB3C /* JR-Swift-Demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "JR-Swift-Demo.entitlements"; sourceTree = "<group>"; };
+		11DE77B12036D6FD0068A45B /* leaderboard.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = leaderboard.txt; sourceTree = "<group>"; };
+		506C16AF2088670F00624369 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		506C16B12088671800624369 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		506C16B32088671F00624369 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		506C16B62088672E00624369 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		506C16B82088673500624369 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		50D7C05E1F0F6F49000A0F5B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		50E2C5EF1F2B1036004BAF32 /* 001a-badge-custom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "001a-badge-custom.png"; sourceTree = "<group>"; };
 		50E2C5F01F2B1036004BAF32 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -31,8 +44,9 @@
 		50E2C5F71F2B1036004BAF32 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50E2C5FC1F2B1036004BAF32 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		50E2C60A1F2B115A004BAF32 /* JR-Swift-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JR-Swift-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7BB660630B045ED73C5BE04F /* Pods-SwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftDemo/Pods-SwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		B881278153EEAB520F45C1C7 /* Pods_SwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7383BA14953E77A9F5051FB8 /* Pods-SwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftDemo/Pods-SwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
+		87DF7D866A0EA5659CB2A013 /* Pods-SwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftDemo/Pods-SwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A16B7743B951C51B89CC2531 /* Pods_SwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,8 +54,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				506C16B92088673500624369 /* UIKit.framework in Frameworks */,
+				506C16B72088672E00624369 /* SystemConfiguration.framework in Frameworks */,
+				506C16B52088672600624369 /* Security.framework in Frameworks */,
+				506C16B42088671F00624369 /* libicucore.tbd in Frameworks */,
+				506C16B22088671800624369 /* Foundation.framework in Frameworks */,
+				506C16B02088670F00624369 /* CFNetwork.framework in Frameworks */,
 				50D7C05F1F0F6F49000A0F5B /* CoreLocation.framework in Frameworks */,
-				065CFF9B136B74B4DF3A47B9 /* Pods_SwiftDemo.framework in Frameworks */,
+				2D169629881506D0D006D6CE /* Pods_SwiftDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,26 +71,19 @@
 		047BF9A31D0994970058BBB8 = {
 			isa = PBXGroup;
 			children = (
+				11711202203D9C6B00BCFB3C /* JR-Swift-Demo.entitlements */,
 				50E2C5EE1F2B1036004BAF32 /* Demo */,
 				692BB3032D9CC93DA7F3FA52 /* Frameworks */,
 				50E2C60A1F2B115A004BAF32 /* JR-Swift-Demo.app */,
-				457C8BC0B656A622B7B4A0FD /* Pods */,
+				A0360BB01105320A65D1FF8C /* Pods */,
 			);
-			sourceTree = "<group>";
-		};
-		457C8BC0B656A622B7B4A0FD /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7BB660630B045ED73C5BE04F /* Pods-SwiftDemo.debug.xcconfig */,
-				4565630732996D6167F6D314 /* Pods-SwiftDemo.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		50E2C5EE1F2B1036004BAF32 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
 				50E2C5EF1F2B1036004BAF32 /* 001a-badge-custom.png */,
+				11DE77B12036D6FD0068A45B /* leaderboard.txt */,
 				50E2C5F01F2B1036004BAF32 /* AppDelegate.swift */,
 				50E2C5F11F2B1036004BAF32 /* Assets.xcassets */,
 				50E2C5F21F2B1036004BAF32 /* LaunchScreen.storyboard */,
@@ -85,11 +98,25 @@
 		692BB3032D9CC93DA7F3FA52 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				506C16B82088673500624369 /* UIKit.framework */,
+				506C16B62088672E00624369 /* SystemConfiguration.framework */,
+				506C16B32088671F00624369 /* libicucore.tbd */,
+				506C16B12088671800624369 /* Foundation.framework */,
+				506C16AF2088670F00624369 /* CFNetwork.framework */,
 				50D7C05E1F0F6F49000A0F5B /* CoreLocation.framework */,
 				048DB9881D65DCF300210138 /* Security.framework */,
-				B881278153EEAB520F45C1C7 /* Pods_SwiftDemo.framework */,
+				A16B7743B951C51B89CC2531 /* Pods_SwiftDemo.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0360BB01105320A65D1FF8C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87DF7D866A0EA5659CB2A013 /* Pods-SwiftDemo.debug.xcconfig */,
+				7383BA14953E77A9F5051FB8 /* Pods-SwiftDemo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,12 +126,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 047BF9BE1D0994970058BBB8 /* Build configuration list for PBXNativeTarget "SwiftDemo" */;
 			buildPhases = (
-				7F56D79F096FC4569529A575 /* [CP] Check Pods Manifest.lock */,
+				C3AD52024D804F1D6232704A /* [CP] Check Pods Manifest.lock */,
 				047BF9A81D0994970058BBB8 /* Sources */,
 				047BF9A91D0994970058BBB8 /* Frameworks */,
 				047BF9AA1D0994970058BBB8 /* Resources */,
-				6B329EE3F945BAC132227A98 /* [CP] Embed Pods Frameworks */,
-				99E084957F1A466C4BFAB8B1 /* [CP] Copy Pods Resources */,
+				98C390887CFFBC0736390C14 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,8 +153,17 @@
 				TargetAttributes = {
 					047BF9AB1D0994970058BBB8 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = 6KLQA7GG45;
+						DevelopmentTeam = 42G9QTT3C9;
 						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -155,6 +190,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11DE77B22036DB690068A45B /* leaderboard.txt in Resources */,
 				50E2C6021F2B1036004BAF32 /* hi-512-3.jpeg in Resources */,
 				50E2C6001F2B1036004BAF32 /* LaunchScreen.storyboard in Resources */,
 				50E2C5FF1F2B1036004BAF32 /* Assets.xcassets in Resources */,
@@ -166,16 +202,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6B329EE3F945BAC132227A98 /* [CP] Embed Pods Frameworks */ = {
+		98C390887CFFBC0736390C14 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftDemo/Pods-SwiftDemo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/JackpotRising/JackpotRising.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JackpotRising.framework",
 			);
@@ -184,37 +224,26 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftDemo/Pods-SwiftDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7F56D79F096FC4569529A575 /* [CP] Check Pods Manifest.lock */ = {
+		C3AD52024D804F1D6232704A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-SwiftDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		99E084957F1A466C4BFAB8B1 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftDemo/Pods-SwiftDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -280,6 +309,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -298,10 +328,11 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
 			};
 			name = Debug;
 		};
@@ -334,6 +365,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -350,74 +382,93 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
 			};
 			name = Release;
 		};
 		047BF9BF1D0994970058BBB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BB660630B045ED73C5BE04F /* Pods-SwiftDemo.debug.xcconfig */;
+			baseConfigurationReference = 87DF7D866A0EA5659CB2A013 /* Pods-SwiftDemo.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				BUNDLE_LOADER = "";
 				CLANG_ENABLE_MODULES = "$(inherited)";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Prethush PJ (ERG7ZY8BHM)";
-				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer: Prethush PJ (ERG7ZY8BHM)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Prethush PJ (ERG7ZY8BHM)";
+				CODE_SIGN_ENTITLEMENTS = "JR-Swift-Demo.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = "$(inherited)";
-				DEVELOPMENT_TEAM = 6KLQA7GG45;
+				DEVELOPMENT_TEAM = 42G9QTT3C9;
 				ENABLE_BITCODE = NO;
 				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
 				INFOPLIST_FILE = "$(SRCROOT)/Demo/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks $(CONFIGURATION_BUILD_DIR)";
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-iquote",
 					"\"$PODS_CONFIGURATION_BUILD_DIR/JackpotRising/JackpotRising.framework/Headers\"",
 				);
-				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-all_load",
+					"-ObjC",
+				);
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\"";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.experion.jr-swift-demo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jackpotrising.app;
 				PRODUCT_NAME = "JR-Swift-Demo";
-				PROVISIONING_PROFILE = "3b27d65a-684b-433c-801c-978c146ac642";
-				PROVISIONING_PROFILE_SPECIFIER = ExperionWildCardProfile;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
 		047BF9C01D0994970058BBB8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4565630732996D6167F6D314 /* Pods-SwiftDemo.release.xcconfig */;
+			baseConfigurationReference = 7383BA14953E77A9F5051FB8 /* Pods-SwiftDemo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				BUNDLE_LOADER = "";
 				CLANG_ENABLE_MODULES = "$(inherited)";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Prethush PJ (ERG7ZY8BHM)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Prethush PJ (ERG7ZY8BHM)";
+				CODE_SIGN_ENTITLEMENTS = "JR-Swift-Demo.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = "$(inherited)";
-				DEVELOPMENT_TEAM = 6KLQA7GG45;
+				DEVELOPMENT_TEAM = 42G9QTT3C9;
 				ENABLE_BITCODE = NO;
 				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/Demo/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = "$(inherited)";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks $(CONFIGURATION_BUILD_DIR)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-all_load",
+					"-ObjC",
+				);
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\"";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.experion.jr-swift-demo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jackpotrising.app;
 				PRODUCT_NAME = "JR-Swift-Demo";
-				PROVISIONING_PROFILE = "3b27d65a-684b-433c-801c-978c146ac642";
-				PROVISIONING_PROFILE_SPECIFIER = ExperionWildCardProfile;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};
